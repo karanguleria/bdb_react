@@ -1,0 +1,130 @@
+import React from 'react';
+
+function Invoice() {
+    return (
+        <div class="Invoice">
+            {/* ================================    START INVOICE AREA ================================= */}
+            <section class="invoice-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="invoice-content-wrap">
+                                <h2 class="invoice-title">Thank you for your order!</h2>
+                                <div class="invoice-item">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="invoice-logo">
+                                                <img src="images/logo2.png" alt="logo" />
+                                            </div>
+                                        </div>{/* end col-md-6 */}
+                                        <div class="col-md-6">
+                                            <p class="invoice-details">
+                                                <strong>Order:</strong> #00124 <br />
+                                                <strong>Issued:</strong> 20/07/2019 <br />
+                                                Due 7 days from date of issue
+                                </p>
+                                        </div>{/* end col-md-6 */}
+                                    </div>{/* end row */}
+                                </div>{/* end invoice-item */}
+                                <div class="invoice-item">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="invoice-text">
+                                                <h2>Invoice</h2>
+                                            </div>
+                                        </div>{/* end col-md-12 */}
+                                        <div class="col-md-6">
+                                            <div class="invoice-info">
+                                                <strong class="customer-text">Supplier</strong>
+                                                <p class="invoice-details invoice-details-two">
+                                                    Dirto Ltd. <br />
+                                                    36 Edgewater Street, Melbourne, AU  <br />
+                                                    Australia, CF44 6ZL, AU <br />
+                                                </p>
+                                            </div>{/* end invoice-info */}
+                                        </div>{/* end col-md-6 */}
+                                        <div class="col-md-6">
+                                            <div class="invoice-info invoice-info2">
+                                                <strong class="customer-text">Customer</strong>
+                                                <p class="invoice-details invoice-details-two">
+                                                    Mark Wins <br />
+                                                    21 St Andrews Lane, London, UK <br />
+                                                    London, CF44 6ZL, UK <br />
+                                                </p>
+                                            </div>{/* end invoice-info */}
+                                        </div>{/* end col-md-6 */}
+                                    </div>{/* end row */}
+                                </div>{/* end invoice-item */}
+                                <div class="invoice-item invoice-table-wrap">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="invoice-table table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Description</th>
+                                                            <th>Quantity</th>
+                                                            <th>VAT</th>
+                                                            <th>Total</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Beef Dripping Glazed Steak</td>
+                                                            <td>1</td>
+                                                            <td>$0</td>
+                                                            <td>$20.95</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Steak & Melted Cheese Brioche</td>
+                                                            <td>1</td>
+                                                            <td>$1.5</td>
+                                                            <td>$16.00</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>{/* end table-responsive */}
+                                        </div>{/* end col-md-12 */}
+                                        <div class="col-md-4 col-md-offset-8">
+                                            <div class="table-responsive table-responsive2">
+                                                <table class="invoice-table-two table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>Subtotal:</th>
+                                                            <td><span>$36.99</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Discount:</th>
+                                                            <td><span>-8%</span></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Total Amount:</th>
+                                                            <td><span>$27.95</span></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>{/* end table-responsive */}
+                                        </div>{/* end col-md-4 */}
+                                    </div>{/* end row */}
+                                </div>{/* end invoice-item */}
+                            </div>{/* end invoice-content-wrap */}
+                        </div>{/* end col-md-10 */}
+                    </div>{/* end row */}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="button-shared text-center">
+                                <a href="javascript:window.print()" class="theme__btn"><span class="la la-print"></span> print this invoice</a>
+                                <a href="index.html" class="theme__btn back-to-home">
+                                    <span class="la la-mail-reply-all"></span> back to home
+                    </a>
+                            </div>{/* end button-shared */}
+                        </div>{/* end col-md-12 */}
+                    </div>{/* end row */}
+                </div>{/* end container */}
+            </section>{/* end invoice-area */}
+            {/* ================================     END INVOICE AREA ================================= */}
+        </div>
+    );
+}
+
+export default Invoice;
