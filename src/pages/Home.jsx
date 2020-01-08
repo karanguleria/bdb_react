@@ -1,8 +1,54 @@
 import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import FeaturedCategory from '../components/cards/FeaturedCategory';
+import PopularCategory from '../components/cards/PopularCategory';
+import MostVisitedPlace from '../components/cards/MostVisitedPlace';
+import Testimonial from '../components/cards/Testimonial';
+import ClientLogo from '../components/cards/ClientLogo';
+import BlogPost from '../components/cards/BlogPost';
+import FunFacts from '../components/cards/FunFacts';
+import WeOffer from '../components/cards/WeOffer';
+import "slick-carousel/slick/slick.css";
+import Slider from "react-slick";
+// const ArrowPrev = (props) => (
+//     <div class="slick-arrow slick-prev"><span class={props.to}></span></div>
+// );
+// const ArrowNext = (props) => (
+//     <div class="slick-arrow slick-next"><span class={props.to}></span></div>
+// );
+var ClientLogosettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: false
+};
+var Testimonialsettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    // prevArrow: <ArrowPrev to="slick-arrow la la-caret-left" />,
+    // nextArrow: <ArrowNext to="slick-arrow la la-caret-right" />
+};
+var BlogPostsettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false
+};
+
 
 function Home() {
     return (
         <div className="Home">
+            <Header />
             <section className="hero-wrapper" id="home">
                 <div className="hero-overlay"></div>
                 <div className="container">
@@ -76,42 +122,12 @@ function Home() {
                                 <h4 className="highlighted__or">Or</h4>
                                 <h5 className="highlighted__title">browse featured categories:</h5>
                                 <ul className="highlighted-list-item">
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-one"><i className="la la-building-o"></i></span>
-                                            apartments
-                            </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-one"><i className="la la-cutlery"></i></span>
-                                            Restaurants
-                            </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-two"><i className="la la-plane"></i></span>
-                                            travel
-                            </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-three"><i className="la la-music"></i></span>
-                                            Events
-                            </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-three"><i className="la la-gear"></i></span>
-                                            fitness
-                            </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span className="highlight-icon hli-four"><i className="la la-hotel"></i></span>
-                                            Hotels
-                            </a>
-                                    </li>
+                                    <FeaturedCategory icon="la la-building-o" title="apartments" />
+                                    <FeaturedCategory icon="la la-building-o" title="bpartments" />
+                                    <FeaturedCategory icon="la la-building-o" title="cpartments" />
+                                    <FeaturedCategory icon="la la-building-o" title="dpartments" />
+                                    <FeaturedCategory icon="la la-building-o" title="epartments" />
+                                    <FeaturedCategory icon="la la-building-o" title="fpartments" />
                                 </ul>
                             </div>
                         </div>
@@ -133,150 +149,14 @@ function Home() {
                         </div>
                     </div>
                     <div className="row cat-info-wrap">
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-cutlery"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">Restaurants</h4>
-                                                <span className="badge">12 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img2.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-plane"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">travels</h4>
-                                                <span className="badge">22 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img3.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-hotel"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">hotels</h4>
-                                                <span className="badge">32 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img4.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-music"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">events</h4>
-                                                <span className="badge">44 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img5.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-shopping-cart"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">shops</h4>
-                                                <span className="badge">48 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img6.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-gear"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">fitness</h4>
-                                                <span className="badge">50 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img7.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-glass"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">food & drink</h4>
-                                                <span className="badge">14 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="cat-item">
-                                <figure className="category-fig">
-                                    <img src="images/img8.jpg" alt="category-image" className="cat-img" />
-                                    <figcaption className="fig-caption">
-                                        <a href="#" className="cat-fig-box">
-                                            <div className="cat__icon">
-                                                <span className="la la-paint-brush"></span>
-                                            </div>
-                                            <div className="cat__content">
-                                                <h4 className="cat__name-title">art & design</h4>
-                                                <span className="badge">20 Listings</span>
-                                            </div>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
+                        <PopularCategory />
                     </div>
                 </div>
             </section>
@@ -369,301 +249,14 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="most-visited-wrap">
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img1.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-cutlery"></span> Restaurant</h5>
-                                                <h4 className="listing-title">Favorite Place Food Bank
-                                        <i className="fa fa-check-circle" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
-                                                </h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.5</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img2.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge badge-closed">closed</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-plane"></span> travel</h5>
-                                                <h4 className="listing-title">beach blue boardwalk</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.6</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img3.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-hotel"></span> hotel</h5>
-                                                <h4 className="listing-title">
-                                                    hotel govendor <i className="fa fa-check-circle" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
-                                                </h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.7</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img4.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom"
-                                                title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-music"></span> event</h5>
-                                                <h4 className="listing-title">sticky band party</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.5</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img5.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge badge-closed">closed</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-shopping-cart"></span> shop</h5>
-                                                <h4 className="listing-title">Sena Clothing Shopping Mall</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.6</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="most-visited-item">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img3.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-hotel"></span> hotel</h5>
-                                                <h4 className="listing-title">
-                                                    hotel govendor <i className="fa fa-check-circle" data-toggle="tooltip" data-placement="top" title="Claimed"></i>
-                                                </h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.7</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Slider {...BlogPostsettings}>
+                                    <MostVisitedPlace />
+                                    <MostVisitedPlace />
+                                    <MostVisitedPlace />
+                                    <MostVisitedPlace />
+                                    <MostVisitedPlace />
+                                    <MostVisitedPlace />
+                                </Slider>
                             </div>
                         </div>
                     </div>
@@ -685,50 +278,10 @@ function Home() {
                         </div>
                     </div>
                     <div className="row fun-fact-wrap">
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fun-item">
-                                <div className="fun-number fun-bg1">
-                                    <span className="counter">1150</span>
-                                    <span className="count-symbol">+</span>
-                                </div>
-                                <div className="fun-content">
-                                    <p className="counter__title">Projects Completed</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fun-item">
-                                <div className="fun-number fun-bg2">
-                                    <span className="counter">3040</span>
-                                    <span className="count-symbol">+</span>
-                                </div>
-                                <div className="fun-content">
-                                    <p className="counter__title">Happy Clients</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fun-item">
-                                <div className="fun-number fun-bg3">
-                                    <span className="counter">2020</span>
-                                    <span className="count-symbol">+</span>
-                                </div>
-                                <div className="fun-content">
-                                    <p className="counter__title">Cup of Coffee</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fun-item">
-                                <div className="fun-number fun-bg4">
-                                    <span className="counter">350</span>
-                                    <span className="count-symbol">+</span>
-                                </div>
-                                <div className="fun-content">
-                                    <p className="counter__title">Awards Winning</p>
-                                </div>
-                            </div>
-                        </div>
+                        <FunFacts />
+                        <FunFacts />
+                        <FunFacts />
+                        <FunFacts />
                     </div>
                 </div>
             </section>
@@ -747,58 +300,11 @@ function Home() {
                         </div>
                     </div>
                     <div className="row hiw-info-wrap">
-                        <div className="col-md-3 col-sm-6">
-                            <div className="hiw-item">
-                                <div className="hiw-icon">
-                                    <span className="la la-map"></span>
-                                </div>
-                                <div className="hiw-content">
-                                    <h4 className="hiw__title">Greatest Places</h4>
-                                    <p className="hiw__desc">
-                                        There are many variations of passages of Lorem Ipsum available.
-                        </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="hiw-item">
-                                <div className="hiw-icon">
-                                    <span className="la la-cutlery"></span>
-                                </div>
-                                <div className="hiw-content">
-                                    <h4 className="hiw__title">Greatest Restaurants</h4>
-                                    <p className="hiw__desc">
-                                        There are many variations of passages of Lorem Ipsum available.
-                        </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="hiw-item">
-                                <div className="hiw-icon">
-                                    <span className="la la-hotel"></span>
-                                </div>
-                                <div className="hiw-content">
-                                    <h4 className="hiw__title">Greatest Hotels</h4>
-                                    <p className="hiw__desc">
-                                        There are many variations of passages of Lorem Ipsum available.
-                        </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="hiw-item more-content">
-                                <div className="hiw-icon">
-                                    <span className="la la-ellipsis-h"></span>
-                                </div>
-                                <div className="hiw-content">
-                                    <h4 className="hiw__title">And More...</h4>
-                                    <p className="hiw__desc">
-                                        There are many variations of passages of Lorem Ipsum available.
-                        </p>
-                                </div>
-                            </div>
-                        </div>
+                        <WeOffer />
+                        <WeOffer />
+                        <WeOffer />
+                        <WeOffer />
+
                     </div>
                 </div>
             </section>
@@ -851,57 +357,11 @@ function Home() {
                     <div className="row">
                         <div className="col-md-8 col-md-offset-2">
                             <div className="client-testimonial">
-                                <div className="testimonial-item">
-                                    <div className="testi-comment">
-                                        <p className="testi__desc">
-                                            Excepteur sint occaecat cupidatat non proident sunt in culpa
-                                            officia deserunt mollit anim laborum sint occaecat cupidatat non
-                                            proident. Occaecat cupidatat non proident des
-                                            culpa officia deserunt mollit.
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque fuga
-                                            minima molestias nihil perspiciatis repudiandae sed vitae voluptatibus?
-                            </p>
-                                    </div>
-                                    <div className="testi__img">
-                                        <img src="images/team1.jpg" alt="testimonial image" />
-                                    </div>
-                                    <h4 className="tesi__title">Richard Doe</h4>
-                                    <span className="testi__meta">united states</span>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-comment">
-                                        <p className="testi__desc">
-                                            Excepteur sint occaecat cupidatat non proident sunt in culpa
-                                            officia deserunt mollit anim laborum sint occaecat cupidatat non
-                                            proident. Occaecat cupidatat non proident des
-                                            culpa officia deserunt mollit.
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque fuga
-                                            minima molestias nihil perspiciatis repudiandae sed vitae voluptatibus?
-                            </p>
-                                    </div>
-                                    <div className="testi__img">
-                                        <img src="images/team2.jpg" alt="testimonial image" />
-                                    </div>
-                                    <h4 className="tesi__title">Denwen Evil</h4>
-                                    <span className="testi__meta">united kingdom</span>
-                                </div>
-                                <div className="testimonial-item">
-                                    <div className="testi-comment">
-                                        <p className="testi__desc">
-                                            Excepteur sint occaecat cupidatat non proident sunt in culpa
-                                            officia deserunt mollit anim laborum sint occaecat cupidatat non
-                                            proident. Occaecat cupidatat non proident des
-                                            culpa officia deserunt mollit.
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque fuga
-                                            minima molestias nihil perspiciatis repudiandae sed vitae voluptatibus?
-                            </p>
-                                    </div>
-                                    <div className="testi__img">
-                                        <img src="images/team3.jpg" alt="testimonial image" />
-                                    </div>
-                                    <h4 className="tesi__title">Collis Pong</h4>
-                                    <span className="testi__meta">melbourne, australia</span>
-                                </div>
+                                <Slider {...Testimonialsettings}>
+                                    <Testimonial />
+                                    <Testimonial />
+                                    <Testimonial />
+                                </Slider>
                             </div>
                         </div>
                     </div>
@@ -921,111 +381,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="row blog-post-wrapper">
-                        <div className="col-md-4 col-sm-6">
-                            <div className="blog-post-item">
-                                <div className="blog-post-img">
-                                    <a href="blog-single.html">
-                                        <img src="images/img4.jpg" alt="blog image" className="blog__img" />
-                                    </a>
-                                </div>
-                                <div className="blog-post-body">
-                                    <a href="blog-single.html" className="blog__title">
-                                        50 Greatest Event Places in London
-                        </a>
-                                    <ul className="post__meta">
-                                        <li>25 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="#">340 Likes</a></li>
-                                    </ul>
-                                    <p className="blog__desc">
-                                        Sed ut perspiciatis unde omnis iste natus error sit
-                                        voluptatem eaque ipsa quae ab illo inventore
-                                        incididunt ut labore et dolore magna
-                        </p>
-                                    <ul className="post__bottom">
-                                        <li>
-                                            <img src="images/team1.jpg" alt="" />
-                                            <span className="by__text">By</span>
-                                            <span>David Wise</span>
-                                        </li>
-                                        <li>
-                                            <a href="blog-single.html" className="blog__btn">
-                                                read more <i className="fa fa-angle-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-sm-6">
-                            <div className="blog-post-item">
-                                <div className="blog-post-img">
-                                    <a href="blog-single.html">
-                                        <img src="images/img5.jpg" alt="blog image" className="blog__img" />
-                                    </a>
-                                </div>
-                                <div className="blog-post-body">
-                                    <a href="blog-single.html" className="blog__title">
-                                        Top 10 Best Clothing Shops in Sydney
-                        </a>
-                                    <ul className="post__meta">
-                                        <li>26 Dec, 2018 - <a href="#" className="tag__text">Tips & News</a></li>
-                                        <li><a href="#">620 Likes</a></li>
-                                    </ul>
-                                    <p className="blog__desc">
-                                        Sed ut perspiciatis unde omnis iste natus error sit
-                                        voluptatem eaque ipsa quae ab illo inventore
-                                        incididunt ut labore et dolore magna
-                        </p>
-                                    <ul className="post__bottom">
-                                        <li>
-                                            <img src="images/team2.jpg" alt="" />
-                                            <span className="by__text">By</span>
-                                            <span>Mark Wins</span>
-                                        </li>
-                                        <li>
-                                            <a href="blog-single.html" className="blog__btn">
-                                                read more <i className="fa fa-angle-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-sm-6">
-                            <div className="blog-post-item">
-                                <div className="blog-post-img">
-                                    <a href="blog-single.html">
-                                        <img src="images/img6.jpg" alt="blog image" className="blog__img" />
-                                    </a>
-                                </div>
-                                <div className="blog-post-body">
-                                    <a href="blog-single.html" className="blog__title">
-                                        Top 15 Greatest Ideas for Health & Body
-                        </a>
-                                    <ul className="post__meta">
-                                        <li>27 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="#">800 Likes</a></li>
-                                    </ul>
-                                    <p className="blog__desc">
-                                        Sed ut perspiciatis unde omnis iste natus error sit
-                                        voluptatem eaque ipsa quae ab illo inventore
-                                        incididunt ut labore et dolore magna
-                        </p>
-                                    <ul className="post__bottom">
-                                        <li>
-                                            <img src="images/team3.jpg" alt="" />
-                                            <span className="by__text">By</span>
-                                            <span>Matt Derry</span>
-                                        </li>
-                                        <li>
-                                            <a href="blog-single.html" className="blog__btn">
-                                                read more <i className="fa fa-angle-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <BlogPost />
+                        <BlogPost />
+                        <BlogPost />
                     </div>
                 </div>
             </section>
@@ -1034,29 +392,21 @@ function Home() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="client-logo">
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
-                                <div className="client-logo-item">
-                                    <img src="images/client-logo.png" alt="brand image" />
-                                </div>
+                                <Slider {...ClientLogosettings}>
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                    <ClientLogo />
+                                </Slider>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }

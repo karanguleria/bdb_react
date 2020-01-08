@@ -3647,9 +3647,9 @@ span.new-page-badge {
       width: 100%;
       text-align: center;
       margin-top: 38px; }
-      .most-visited-area .most-visited-wrap .owl-dots div,
-      .most-visited-area .most-visited-wrap2 .owl-dots div,
-      .most-visited-area .most-visited-wrap3 .owl-dots div {
+      .most-visited-area .most-visited-wrap .slick-dots li,
+      .most-visited-area .most-visited-wrap2 .slick-dots li,
+      .most-visited-area .most-visited-wrap3 .slick-dots li {
         width: 15px;
         height: 15px;
         -webkit-border-radius: 50%;
@@ -3663,9 +3663,9 @@ span.new-page-badge {
         -o-transition: all 0.3s;
         transition: all 0.3s;
         margin: 0 2px; }
-        .most-visited-area .most-visited-wrap .owl-dots div.active,
-        .most-visited-area .most-visited-wrap2 .owl-dots div.active,
-        .most-visited-area .most-visited-wrap3 .owl-dots div.active {
+        .most-visited-area .most-visited-wrap .slick-dots li.slick-active,
+        .most-visited-area .most-visited-wrap2 .slick-dots li.slick-active,
+        .most-visited-area .most-visited-wrap3 .slick-dots li.slick-active {
           background-color: #ff6b6b;
           border-color: #ff6b6b; }
   .most-visited-area .most-visited-wrap2,
@@ -6247,10 +6247,10 @@ span.new-page-badge {
         background-color: #ff6b6b;
         border-color: #ff6b6b;
         color: #fff; }
-    .testimonial-area .client-testimonial .owl-dots {
+    .testimonial-area .client-testimonial .slick-dots {
       width: 100%;
       text-align: center; }
-      .testimonial-area .client-testimonial .owl-dots div {
+      .testimonial-area .client-testimonial .slick-dots li {
         width: 14px;
         height: 14px;
         border: 2px solid rgba(39, 43, 65, 0.2);
@@ -6265,7 +6265,7 @@ span.new-page-badge {
         -o-transition: all 0.3s;
         transition: all 0.3s;
         opacity: .8; }
-        .testimonial-area .client-testimonial .owl-dots div:hover, .testimonial-area .client-testimonial .owl-dots div.active {
+        .testimonial-area .client-testimonial .slick-dots li:hover, .testimonial-area .client-testimonial .slick-dots li.slick-active {
           -webkit-transform: scale(1);
           -moz-transform: scale(1);
           -ms-transform: scale(1);
@@ -6481,7 +6481,7 @@ span.new-page-badge {
       padding-top: 60px; } }
   .clientlogo-area .client-logo {
     text-align: center; }
-    .clientlogo-area .client-logo .owl-item .client-logo-item {
+    .clientlogo-area .client-logo .client-logo-item {
       display: inline-block;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -6489,20 +6489,20 @@ span.new-page-badge {
       -o-transition: all 0.3s;
       transition: all 0.3s;
       padding: 20px 20px; }
-      .clientlogo-area .client-logo .owl-item .client-logo-item img {
+      .clientlogo-area .client-logo .client-logo-item img {
         opacity: 0.4;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         -ms-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s; }
-      .clientlogo-area .client-logo .owl-item .client-logo-item:hover {
+      .clientlogo-area .client-logo .client-logo-item:hover {
         -webkit-transform: scale(1.03);
         -moz-transform: scale(1.03);
         -ms-transform: scale(1.03);
         -o-transform: scale(1.03);
         transform: scale(1.03); }
-        .clientlogo-area .client-logo .owl-item .client-logo-item:hover img {
+        .clientlogo-area .client-logo .client-logo-item:hover img {
           opacity: 1; }
 
 /*====================================================

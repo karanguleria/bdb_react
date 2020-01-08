@@ -2,11 +2,9 @@ import React from 'react';
 import Subscribe from './Subscribe';
 import {
     BrowserRouter as Router,
-    Route,
-    Switch,
     Link
-} from "react-router-dom";
-
+  } from "react-router-dom";
+  
 function Footer() {
     return (
         <div className="Footer">

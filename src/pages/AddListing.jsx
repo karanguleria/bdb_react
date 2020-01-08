@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from '../components/Header.jsx';
+import Breadcrum from '../components/Breadcrum.jsx';
+import Footer from '../components/Footer.jsx';
 
 function AddListing() {
     return (
         <div className="AddListng">
+            <Header />
+            <Breadcrum/>
             {/* ================================ START BREADCRUMB AREA ================================= */}
             <section className="breadcrumb-area">
                 <div className="breadcrumb-wrap">
@@ -827,6 +832,7 @@ function AddListing() {
                 </div>{/* end container */}
             </section>{/* end add-listing-area */}
             {/* ================================ END ADD-LISTING AREA ================================= */}
+            <Footer />
         </div>
     )
 }
