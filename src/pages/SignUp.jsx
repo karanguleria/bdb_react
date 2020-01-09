@@ -7,7 +7,7 @@ function SignUp() {
     return (
         <div className="SignUp">
             <Header/>
-            <Breadcrum/>
+            <Breadcrum title="Sign Up"/>
             {/* ================================        START FORM AREA ================================= */}
             <section className="form-shared">
                 <div className="container">

@@ -368,7 +368,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img2.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge badge-closed">closed</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -384,7 +384,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -418,7 +418,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img3.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge">now open</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -436,7 +436,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -470,7 +470,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img4.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge">now open</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -486,7 +486,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team4.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -520,7 +520,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img5.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge">now open</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -538,7 +538,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team5.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -572,7 +572,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img6.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge badge-closed">closed</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -588,7 +588,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team7.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -622,7 +622,7 @@ function ListLeftSidebar() {
                                     <div className="listing-list-img">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img8.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                                 <span className="list-name badge badge">now open</span>
                                                 <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                     <i className="la la-heart-o"></i>
@@ -640,7 +640,7 @@ function ListLeftSidebar() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team8.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>

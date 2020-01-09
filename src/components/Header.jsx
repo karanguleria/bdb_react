@@ -162,7 +162,7 @@ function Header() {
           </div>
           <div className="side-menu-wrap side-user-menu-wrap">
             <div className="side-user-img" />
-            <img src="images/team2.jpg" alt="image" />
+            <img src="images/team1.jpg" alt="image" />
             <h4 className="su__name">Mark Williamson</h4>
             <span className="su__meta">Joined 3 years ago</span>
             <div className="avatar-icon">

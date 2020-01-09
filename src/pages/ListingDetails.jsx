@@ -16,23 +16,23 @@ function ListingDetails() {
                             <div className="single-listing-wrap">
                                 <h2 className="sl__title">Gallery</h2>
                                 <div className="gallery-carousel">
-                                    <div data-dot="<img src='images/img17.jpg'>" className="gallery-item">
-                                        <img src="images/img17.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
-                                    <div data-dot="<img src='images/img18.jpg'>" className="gallery-item">
-                                        <img src="images/img18.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
-                                    <div data-dot="<img src='images/img19.jpg'>" className="gallery-item">
-                                        <img src="images/img19.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
-                                    <div data-dot="<img src='images/img20.jpg'>" className="gallery-item">
-                                        <img src="images/img20.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
-                                    <div data-dot="<img src='images/img21.jpg'>" className="gallery-item">
-                                        <img src="images/img21.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
-                                    <div data-dot="<img src='images/img22.jpg'>" className="gallery-item">
-                                        <img src="images/img22.jpg" alt="gallery-image" />
+                                    <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
+                                        <img src="images/img1.jpg" alt="gallery-image" />
                                     </div>{/* end gallery-item */}
                                 </div>{/* end gallery-carousel */}
                                 <div className="listing-description">
@@ -63,7 +63,7 @@ function ListingDetails() {
                                 <div className="video-listing">
                                     <h2 className="sl__title">Video</h2>
                                     <div className="video__box">
-                                        <img src="images/img22.jpg" alt="video-image" />
+                                        <img src="images/img1.jpg" alt="video-image" />
                                         <div className="video__box-content">
                                             <a className="mfp-iframe video-play-btn" href="https://www.youtube.com/watch?v=5dAICQT1HiU" title="Play Video">
                                                 <span className="la la-play-circle-o"></span>
@@ -147,7 +147,7 @@ function ListingDetails() {
                                             <ul className="comments-reply">
                                                 <li>
                                                     <div className="comment">
-                                                        <img className="avatar__img" alt="" src="images/team2.jpg" />
+                                                        <img className="avatar__img" alt="" src="images/team1.jpg" />
                                                         <div className="comment-body">
                                                             <div className="meta-data">
                                                                 <span className="comment__author">Julian Smith</span>
@@ -185,7 +185,7 @@ function ListingDetails() {
                                                 </li>
                                             </ul>{/* end comment */}
                                             <div className="comment">
-                                                <img className="avatar__img" alt="" src="images/team3.jpg" />
+                                                <img className="avatar__img" alt="" src="images/team1.jpg" />
                                                 <div className="comment-body">
                                                     <div className="meta-data">
                                                         <span className="comment__author">Matt Derry</span>
@@ -310,7 +310,7 @@ function ListingDetails() {
                             <div className="sidebar">
                                 <div className="sidebar-widget author-widget2">
                                     <div className="author-box clearfix">
-                                        <img src="images/team2.jpg" alt="author-image" className="author__img" />
+                                        <img src="images/team1.jpg" alt="author-image" className="author__img" />
                                         <h4 className="author__title">Mark Williamson</h4>
                                         <p className="author__meta">Posted 3 Days ago</p>
                                     </div>
@@ -441,7 +441,7 @@ function ListingDetails() {
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img6.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog image" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -461,7 +461,7 @@ function ListingDetails() {
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img7.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog image" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -481,7 +481,7 @@ function ListingDetails() {
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img8.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog image" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -501,7 +501,7 @@ function ListingDetails() {
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img9.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog image" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -578,7 +578,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img18.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge">now open</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -626,7 +626,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img20.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge badge-closed">closed</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -641,7 +641,7 @@ function ListingDetails() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -674,7 +674,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img21.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge">now open</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -691,7 +691,7 @@ function ListingDetails() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -724,7 +724,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img22.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge">now open</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -774,7 +774,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img17.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge badge-closed">closed</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -789,7 +789,7 @@ function ListingDetails() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
@@ -822,7 +822,7 @@ function ListingDetails() {
                                 <div className="most-visited-item">
                                     <a href="listing-details.html">
                                         <div className="listing-img-box">
-                                            <img src="images/img18.jpg" className="list-img" alt="" />
+                                            <img src="images/img1.jpg" className="list-img" alt="" />
                                             <span className="list-name badge">now open</span>
                                             <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
                                                 <i className="la la-heart-o"></i>
@@ -839,7 +839,7 @@ function ListingDetails() {
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
                                             <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
+                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>

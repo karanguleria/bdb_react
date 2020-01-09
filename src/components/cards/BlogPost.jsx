@@ -1,21 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 function BlogPost() {
     return (
         <div className="BlogPost col-md-4 col-sm-6">
             <div className="blog-post-item">
                 <div className="blog-post-img">
-                    <a href="blog-single.html">
-                        <img src="images/img4.jpg" alt="blog image" className="blog__img" />
-                    </a>
+                    <Link to="/blog-single">
+                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                    </Link>
                 </div>
                 <div className="blog-post-body">
-                    <a href="blog-single.html" className="blog__title">
+                    <Link to="/blog-single" className="blog__title">
                         50 Greatest Event Places in London
-                        </a>
+                        </Link>
                     <ul className="post__meta">
-                        <li>25 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                        <li><a href="#">340 Likes</a></li>
+                        <li>25 Dec, 2018 - <Link to="#" className="tag__text">Tips & Tricks</Link></li>
+                        <li><Link to="#">340 Likes</Link></li>
                     </ul>
                     <p className="blog__desc">
                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -29,9 +30,9 @@ function BlogPost() {
                             <span>David Wise</span>
                         </li>
                         <li>
-                            <a href="blog-single.html" className="blog__btn">
+                            <Link to="/blog-single" className="blog__btn">
                                 read more <i className="fa fa-angle-right"></i>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

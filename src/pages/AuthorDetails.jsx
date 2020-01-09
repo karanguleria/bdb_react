@@ -59,9 +59,9 @@ function AuthorDetails() {
                         </div>{/* end col-md-6 */}
                         <div className="col-md-6">
                             <div className="about-img-wrap">
-                                <img src="images/img16.jpg" alt="about-img" />
-                                <img src="images/img15.jpg" alt="about-img" />
-                                <img src="images/img16.jpg" alt="about-img" />
+                                <img src="images/img1.jpg" alt="about-img" />
+                                <img src="images/img1.jpg" alt="about-img" />
+                                <img src="images/img1.jpg" alt="about-img" />
                                 <div className="video-text">
                                     <a className="mfp-iframe video-play-btn" href="https://www.youtube.com/watch?v=DQMeTCtsLcU" title="Play Video">
                                         <span className="la la-youtube-play"></span>
@@ -144,12 +144,12 @@ function AuthorDetails() {
             {/* ================================       START TESTIMONIAL AREA ================================= */}
             <section className="testimonial-area testimonial-area2 text-center">
                 <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team2.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team3.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team4.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team5.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team6.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team7.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
                 <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
                 <div className="container">
                     <div className="row">
@@ -197,7 +197,7 @@ function AuthorDetails() {
                             </p>
                                     </div>
                                     <div className="testi__img">
-                                        <img src="images/team2.jpg" alt="testimonial image" />
+                                        <img src="images/team1.jpg" alt="testimonial image" />
                                     </div>
                                     <h4 className="tesi__title">Denwen Evil</h4>
                                     <span className="testi__meta">united states</span>
@@ -214,7 +214,7 @@ function AuthorDetails() {
                             </p>
                                     </div>
                                     <div className="testi__img">
-                                        <img src="images/team3.jpg" alt="testimonial image" />
+                                        <img src="images/team1.jpg" alt="testimonial image" />
                                     </div>
                                     <h4 className="tesi__title">Amanda Evil</h4>
                                     <span className="testi__meta">united states</span>
@@ -329,7 +329,7 @@ function AuthorDetails() {
                         <div className="col-md-4 col-sm-6">
                             <div className="team-item">
                                 <div className="team-img">
-                                    <img src="images/team2.jpg" alt="team-img" />
+                                    <img src="images/team1.jpg" alt="team-img" />
                                 </div>{/* end team-img */}
                                 <div className="team-content">
                                     <div className="team__bio">
@@ -353,7 +353,7 @@ function AuthorDetails() {
                         <div className="col-md-4 col-sm-6">
                             <div className="team-item">
                                 <div className="team-img">
-                                    <img src="images/team3.jpg" alt="team-img" />
+                                    <img src="images/team1.jpg" alt="team-img" />
                                 </div>{/* end team-img */}
                                 <div className="team-content">
                                     <div className="team__bio">

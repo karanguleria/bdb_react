@@ -81,7 +81,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img2.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -110,7 +110,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img3.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -139,7 +139,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img4.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -168,7 +168,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img5.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -197,7 +197,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img3.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -233,7 +233,7 @@ function Dashboard() {
                                 <div className="col-md-4">
                                     <div className="user-profile-action">
                                         <div className="user-pro-img">
-                                            <img src="images/team8.jpg" alt="user-image" />
+                                            <img src="images/team1.jpg" alt="user-image" />
                                             <div className="dropdown edit-btn-wrap">
                                                 <button className="edit-pic-btn" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span className="la la-photo"></span> Edit
@@ -404,7 +404,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img2.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">
@@ -432,7 +432,7 @@ function Dashboard() {
                                     <div className="most-visited-item col-md-4 col-sm-6">
                                         <a href="listing-details.html">
                                             <div className="listing-img-box">
-                                                <img src="images/img5.jpg" className="list-img" alt="" />
+                                                <img src="images/img1.jpg" className="list-img" alt="" />
                                             </div>
                                         </a>
                                         <div className="listing-content">

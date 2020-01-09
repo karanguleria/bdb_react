@@ -39,7 +39,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team2.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">alex smith</h4>
                                             <ul className="top__author-meta">
                                                 <li>united states</li>
@@ -61,7 +61,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team3.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">sirazz khan</h4>
                                             <ul className="top__author-meta">
                                                 <li>united kingdom</li>
@@ -83,7 +83,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team4.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">Daniel Wave</h4>
                                             <ul className="top__author-meta">
                                                 <li>italy</li>
@@ -105,7 +105,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team5.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">juhen villa</h4>
                                             <ul className="top__author-meta">
                                                 <li>bangladesh</li>
@@ -127,7 +127,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team6.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">Daniel Wave</h4>
                                             <ul className="top__author-meta">
                                                 <li>costa rica</li>
@@ -149,7 +149,7 @@ function TopAuthor() {
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
                                         <a href="#">
-                                            <img src="images/team7.jpg" alt="author image" />
+                                            <img src="images/team1.jpg" alt="author image" />
                                             <h4 className="top__author-title">jhon doe</h4>
                                             <ul className="top__author-meta">
                                                 <li>france</li>

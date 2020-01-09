@@ -68,10 +68,10 @@ function BlogSingle() {
                                         </blockquote>
                                         <div className="row">
                                             <div className="col-md-6">
-                                                <img src="images/img4.jpg" alt="blog-img" className="img-fluid" />
+                                                <img src="images/img1.jpg" alt="blog-img" className="img-fluid" />
                                             </div>
                                             <div className="col-md-6">
-                                                <img src="images/img5.jpg" alt="blog-img" className="img-fluid" />
+                                                <img src="images/img1.jpg" alt="blog-img" className="img-fluid" />
                                             </div>
                                         </div>{/* end row */}
                                         <div className="quote-text">
@@ -167,7 +167,7 @@ function BlogSingle() {
                                                 <ul className="comments-reply">
                                                     <li>
                                                         <div className="comment">
-                                                            <img className="avatar__img" alt="" src="images/team2.jpg" />
+                                                            <img className="avatar__img" alt="" src="images/team1.jpg" />
                                                             <div className="comment-body">
                                                                 <div className="meta-data">
                                                                     <span className="comment__author">Collin Smith</span>
@@ -198,7 +198,7 @@ function BlogSingle() {
                                                     </li>
                                                 </ul>{/* end comment */}
                                                 <div className="comment">
-                                                    <img className="avatar__img" alt="" src="images/team3.jpg" />
+                                                    <img className="avatar__img" alt="" src="images/team1.jpg" />
                                                     <div className="comment-body">
                                                         <div className="meta-data">
                                                             <span className="comment__author">Matt Derry</span>
@@ -276,7 +276,7 @@ function BlogSingle() {
                                     </form>
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget author-widget">
-                                    <img src="images/team2.jpg" alt="author-image" className="author__img" />
+                                    <img src="images/team1.jpg" alt="author-image" className="author__img" />
                                     <h4 className="author__title">Mark Williamson</h4>
                                     <p className="author__meta">Senior Web Developer</p>
                                     <ul className="author__profile">
@@ -333,7 +333,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img6.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog image" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -346,7 +346,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img7.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog image" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -359,7 +359,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img8.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog image" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -372,7 +372,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img9.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog image" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">

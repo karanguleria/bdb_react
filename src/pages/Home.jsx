@@ -333,12 +333,12 @@ function Home() {
             </section>
             <section className="testimonial-area text-center">
                 <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team2.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team3.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team4.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team5.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team6.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team7.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
                 <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
                 <div className="container">
                     <div className="row">

@@ -8,7 +8,7 @@ function Category() {
     return (
         <div className="Category">
             <Header />
-            <Breadcrum />
+            <Breadcrum title="All Category"/>
             <section className="cat-area cat-area2 all-cat-area">
                 <div className="container">
                     <div className="row cat-info-wrap">

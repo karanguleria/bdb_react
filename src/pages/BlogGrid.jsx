@@ -7,7 +7,7 @@ function BlogGrid() {
     return (
         <div className="BlogGrid">
             <Header/>
-            <Breadcrum/>
+            <Breadcrum title="blog grid"/>
             {/* ================================        START BLOG AREA================================= */}
             <section className="blog-area inner-blog-area">
                 <div className="container">
@@ -16,7 +16,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img4.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -51,7 +51,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img5.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -69,7 +69,7 @@ function BlogGrid() {
                         </p>
                                     <ul className="post__bottom">
                                         <li>
-                                            <img src="images/team2.jpg" alt="" />
+                                            <img src="images/team1.jpg" alt="" />
                                             <span className="by__text">By</span>
                                             <span>Mark Wins</span>
                                         </li>
@@ -86,7 +86,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img6.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -104,7 +104,7 @@ function BlogGrid() {
                         </p>
                                     <ul className="post__bottom">
                                         <li>
-                                            <img src="images/team3.jpg" alt="" />
+                                            <img src="images/team1.jpg" alt="" />
                                             <span className="by__text">By</span>
                                             <span>Matt Derry</span>
                                         </li>
@@ -121,7 +121,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img7.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -139,7 +139,7 @@ function BlogGrid() {
                         </p>
                                     <ul className="post__bottom">
                                         <li>
-                                            <img src="images/team4.jpg" alt="" />
+                                            <img src="images/team1.jpg" alt="" />
                                             <span className="by__text">By</span>
                                             <span>Kamran</span>
                                         </li>
@@ -156,7 +156,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img8.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -174,7 +174,7 @@ function BlogGrid() {
                         </p>
                                     <ul className="post__bottom">
                                         <li>
-                                            <img src="images/team5.jpg" alt="" />
+                                            <img src="images/team1.jpg" alt="" />
                                             <span className="by__text">By</span>
                                             <span>Juhen</span>
                                         </li>
@@ -191,7 +191,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img10.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -209,7 +209,7 @@ function BlogGrid() {
                         </p>
                                     <ul className="post__bottom">
                                         <li>
-                                            <img src="images/team7.jpg" alt="" />
+                                            <img src="images/team1.jpg" alt="" />
                                             <span className="by__text">By</span>
                                             <span>Tambir</span>
                                         </li>

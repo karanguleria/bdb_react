@@ -53,7 +53,7 @@ function Contact() {
                                 </div>{/* add-list-title-wrap */}
                                 <div className="add-list-content">
                                     <div className="our-office-content">
-                                        <img src="images/img15.jpg" alt="group-img" />
+                                        <img src="images/img1.jpg" alt="group-img" />
                                         <p className="office__desc">
                                             Mauris aliquet eu quam id ornare. Morbi ac quam enim.
                                             Cras vitae nulla condimentum, semper dolor non, faucibus dolor.

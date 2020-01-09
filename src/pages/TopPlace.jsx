@@ -15,7 +15,7 @@ function TopPlace() {
                         <div className="col-md-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img23.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
@@ -33,7 +33,7 @@ function TopPlace() {
                         <div className="col-md-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img24.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
@@ -51,11 +51,11 @@ function TopPlace() {
                         <div className="col-md-3 col-sm-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img25.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
-                                                <img src="images/flag2.jpg" alt="united kingdom" />
+                                                <img src="images/flag1.jpg" alt="united kingdom" />
                                             </div>
                                             <div className="cat__content">
                                                 <h4 className="cat__name-title">united kingdom</h4>
@@ -69,7 +69,7 @@ function TopPlace() {
                         <div className="col-md-3 col-sm-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img26.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
@@ -87,11 +87,11 @@ function TopPlace() {
                         <div className="col-md-3 col-sm-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img27.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
-                                                <img src="images/flag18.jpg" alt="costa rica" />
+                                                <img src="images/flag1.jpg" alt="costa rica" />
                                             </div>
                                             <div className="cat__content">
                                                 <h4 className="cat__name-title">costa rica</h4>
@@ -105,11 +105,11 @@ function TopPlace() {
                         <div className="col-md-3 col-sm-6">
                             <div className="cat-item">
                                 <figure className="category-fig">
-                                    <img src="images/img23.jpg" alt="category-image" className="cat-img" />
+                                    <img src="images/img1.jpg" alt="category-image" className="cat-img" />
                                     <figcaption className="fig-caption">
                                         <a href="#" className="cat-fig-box">
                                             <div className="cat__icon">
-                                                <img src="images/flag3.jpg" alt="australia" />
+                                                <img src="images/flag1.jpg" alt="australia" />
                                             </div>
                                             <div className="cat__content">
                                                 <h4 className="cat__name-title">australia</h4>

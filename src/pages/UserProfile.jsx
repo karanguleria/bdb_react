@@ -2,12 +2,13 @@ import React from 'react';
 import Header from '../components/Header.jsx';
 import Breadcrum from '../components/Breadcrum';
 import Footer from '../components/Footer.jsx';
+import MostVisitedPlace from '../components/cards/MostVisitedPlace.jsx';
 
 function UserProfile() {
     return (
         <div className="UserProfile">
             <Header/>
-            <Breadcrum/>
+            <Breadcrum title="user profile"/>
             {/* ================================    START USER-PROFILE AREA ================================= */}
             <section className="user-profile-area most-visited-area">
                 <div className="container">
@@ -15,7 +16,7 @@ function UserProfile() {
                         <div className="col-md-4">
                             <div className="user-content">
                                 <div className="user-avatar">
-                                    <img src="images/team2.jpg" alt="user-image" />
+                                    <img src="images/team1.jpg" alt="user-image" />
                                     <div className="user-meta-box">
                                         <h3 className="user__name">Mark Williamson</h3>
                                         <p className="user__text">Joined 4 years ago</p>
@@ -86,296 +87,13 @@ function UserProfile() {
                         <div className="col-md-8">
                             <h3 className="userlist-title">Mark Williamson's Listings</h3>
                             <div className="most-visited-wrap3 row">
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img1.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom"
-                                                title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-cutlery"></span> Restaurant</h5>
-                                                <h4 className="listing-title">Favorite Place Food Bank</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.5</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img2.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge badge-closed">closed</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-plane"></span> travel</h5>
-                                                <h4 className="listing-title">beach blue boardwalk</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.6</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img3.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-hotel"></span> hotel</h5>
-                                                <h4 className="listing-title">hotel govendor</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.7</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img4.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom"
-                                                title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-music"></span> event</h5>
-                                                <h4 className="listing-title">sticky band party</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team1.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.5</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img5.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge badge-closed">closed</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-shopping-cart"></span> shop</h5>
-                                                <h4 className="listing-title">Sena Clothing Shopping Mall</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team2.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.6</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
-                                <div className="most-visited-item col-md-6">
-                                    <a href="listing-details.html">
-                                        <div className="listing-img-box">
-                                            <img src="images/img3.jpg" className="list-img" alt="" />
-                                            <span className="list-name badge">now open</span>
-                                            <span className="like-icon" data-toggle="tooltip" data-placement="bottom" title="22 Likes">
-                                                <i className="la la-heart-o"></i>
-                                            </span>
-                                        </div>
-                                    </a>
-                                    <div className="listing-content">
-                                        <div className="listing-row-content">
-                                            <a href="listing-details.html">
-                                                <h5 className="listing-meta"><span className="la la-hotel"></span> hotel</h5>
-                                                <h4 className="listing-title">hotel govendor</h4>
-                                                <p className="listing-location">Bishop Avenue, New York</p>
-                                            </a>
-                                            <a href="#" className="author-img-box">
-                                                <img src="images/team3.jpg" className="author-img" alt="author-img" />
-                                            </a>
-                                            <ul className="listing-list">
-                                                <li><span className="la la-phone"></span> (416) 551-0589</li>
-                                                <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
-                                                </li>
-                                                <li><span className="la la-calendar-check-o"></span>
-                                                    Posted 1 month ago
-                                    </li>
-                                            </ul>
-                                        </div>
-                                        <div className="rating-row">
-                                            <div className="rating-rating">
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star"></span>
-                                                <span className="la la-star-half-full"></span>
-                                                <span className="la la-star last-star"></span>
-                                                <span className="rating-count">4.7</span>
-                                            </div>
-                                            <div className="listing-info">
-                                                <ul>
-                                                    <li><span className="la la-eye info__count"></span> 247</li>
-                                                    <li><span className="la la-heart-o info__save" data-toggle="tooltip" data-placement="top" title="Bookmark"></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>{/* end listing-content */}
-                                </div>{/* end most-visited-item */}
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
+                               <MostVisitedPlace class="col-md-6"/>
                             </div>{/* end most-visited-wrap */}
                             <div className="button-shared text-center">
                                 <a href="#" className="theme__btn"><span className="la la-refresh"></span> load more listings</a>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-function MostVisitedPlace() {
+function MostVisitedPlace(props) {
     return (
-        <div className="MostVisitedPlace most-visited-item">
+        <div className={`MostVisitedPlace most-visited-item ${props.class}`}>
             <a href="listing-details.html">
                 <div className="listing-img-box">
                     <img src="images/img1.jpg" className="list-img" alt="" />
