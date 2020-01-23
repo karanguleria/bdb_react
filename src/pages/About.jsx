@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Header from '../components/Header.jsx';
 import Breadcrum from '../components/Breadcrum';
 import Footer from '../components/Footer.jsx';
-function About() {
-    return (
-        <div className="About">
+
+export class About extends Component {
+    render() {
+        return (
+            <div className="About">
             <Header/>
             <Breadcrum/>
             {/* ================================ START ABOUT AREA ================================= */}
@@ -354,7 +356,8 @@ function About() {
             {/* ================================ END TEAM AREA ================================= */}
             <Footer/>
         </div >
-    )
+     )
+    }
 }
 
-export default About;
+export default About

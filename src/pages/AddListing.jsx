@@ -1,39 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Header from '../components/Header.jsx';
 import Breadcrum from '../components/Breadcrum.jsx';
 import Footer from '../components/Footer.jsx';
 
-function AddListing() {
-    return (
-        <div className="AddListng">
+export class AddListing extends Component {
+    render() {
+        return (
+            <div className="AddListng">
             <Header />
             <Breadcrum/>
-            {/* ================================ START BREADCRUMB AREA ================================= */}
-            <section className="breadcrumb-area">
-                <div className="breadcrumb-wrap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-12">
-                                <div className="breadcrumb-content">
-                                    <h2 className="breadcrumb__title">add listing</h2>
-                                    <ul className="breadcrumb__list">
-                                        <li className="active__list-item"><a href="index.html">home</a></li>
-                                        <li className="active__list-item">listings</li>
-                                        <li>add listing</li>
-                                    </ul>
-                                </div>{/* end breadcrumb-content */}
-                            </div>{/* end col-md-12 */}
-                        </div>{/* end row */}
-                    </div>{/* end container */}
-                </div>{/* end breadcrumb-wrap */}
-                <div className="bread-svg">
-                    <svg viewBox="0 0 500 150" preserveAspectRatio="none">
-                        <path d="M-4.22,89.30 C280.19,26.14 324.21,125.81 511.00,41.94 L500.00,150.00 L0.00,150.00 Z"></path>
-                    </svg>
-                </div>{/* end bread-svg */}
-            </section>{/* end breadcrumb-area */}
-            {/* ================================ END BREADCRUMB AREA ================================= */}
-            {/* ================================ START ADD-LISTING AREA ================================= */}
+           {/* ================================ START ADD-LISTING AREA ================================= */}
             <section className="add-listing-area">
                 <div className="container">
                     <div className="row">
@@ -835,6 +811,7 @@ function AddListing() {
             <Footer />
         </div>
     )
+    }
 }
 
-export default AddListing;
+export default AddListing
