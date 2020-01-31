@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { connect } from 'react-redux'
 import FeaturedCategory from '../components/cards/FeaturedCategory';
 import PopularCategory from '../components/cards/PopularCategory';
 import MostVisitedPlace from '../components/cards/MostVisitedPlace';
@@ -10,6 +11,8 @@ import BlogPost from '../components/cards/BlogPost';
 import FunFacts from '../components/cards/FunFacts';
 import WeOffer from '../components/cards/WeOffer';
 import "slick-carousel/slick/slick.css";
+import mapStateToProps from '../redux/mapStateToProps'
+import mapDispatchToProps from '../redux/mapDispatchToProps'
 import Slider from "react-slick";
 import axios from 'axios';
 
@@ -71,7 +74,7 @@ export class Home extends Component {
                                 <div className="hero-heading">
                                     <h2 className="hero__title cd-headline zoom">
                                         What are you interested in
-                        <span className="cd-words-wrapper">
+                                        <span className="cd-words-wrapper">
                                             <b className="is-visible">Hotels</b>
                                             <b>Restaurants</b>
                                             <b>Shops</b>
@@ -84,7 +87,7 @@ export class Home extends Component {
                                     </h2>
                                     <h4 className="hero__meta">
                                         Discover the best places to stay, eat, shop & visit the city nearest to you.
-                    </h4>
+                                    </h4>
                                 </div>
                                 <div className="main-search-input">
                                     <div className="main-search-input-item">
@@ -427,6 +430,7 @@ export class Home extends Component {
     }
 }
 
-export default Home
+export default connect(mapStateToProps, mapDispatchToProps)(Home)
+
 
 

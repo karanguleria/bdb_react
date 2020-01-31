@@ -8,46 +8,51 @@ import axios from 'axios';
 export default class SignUp extends Component {
     constructor(props) {
         super(props);
-        this.state({
-            name: '',
-            first_name: '',
-            last_name: '',
+        this.state = {
+            username: '',
+            firstname: '',
+            lastname: '',
             email: '',
             password: '',
             confirm_password: '',
             error: ''
-        })
-        this.handelName = this.handelName.bind(this);
-        this.handelFirstName = this.handelFirstName.bind(this);
-        this.handelLastName = this.handelLastName.bind(this);
-        this.handelEmail = this.handelEmail.bind(this);
-        this.handelPassword = this.handelPassword.bind(this);
-        this.handelConfirmPassword = this.handelConfirmPassword.bind(this);
+        }
+        // this.handelName = this.handelName.bind(this);
+        // this.handelFirstName = this.handelFirstName.bind(this);
+        // this.handelLastName = this.handelLastName.bind(this);
+        // this.handelEmail = this.handelEmail.bind(this);
+        // this.handelPassword = this.handelPassword.bind(this);
+        // this.handelConfirmPassword = this.handelConfirmPassword.bind(this);
+        this.handelSubmit = this.handelSubmit.bind(this);
     }
-    handelName(evt) {
-        this.setState({
-            name: evt.target.val
-        });
-    }
-    handelFirstName(evt) {
-        this.setState({
-            first_name: evt.target.val
-        });
-    }
-    handelLastName(evt) {
-        this.setState({
-            last_name: evt.target.val
-        });
-    }
-    handelEmail(evt) {
-        this.setState({
-            email: evt.target.val
-        });
-    }
-    handelPassword(evt) {
-        this.setState({
-            password: evt.target.val
-        });
+    // handelName(evt) {
+    //     this.setState({
+    //         name: evt.target.value
+    //     });
+    // }
+    // handelFirstName(evt) {
+    //     this.setState({
+    //         first_name: evt.target.value
+    //     });
+    // }
+    // handelLastName(evt) {
+    //     this.setState({
+    //         last_name: evt.target.value
+    //     });
+    // }
+    // handelEmail(evt) {
+    //     this.setState({
+    //         email: evt.target.value
+    //     });
+    // }
+    // handelPassword(evt) {
+    //     this.setState({
+    //         password: evt.target.value
+    //     });
+    // }
+    handelSubmit(event) {
+        alert("event submit triggered");
+        event.preventDefault()
     }
     render() {
         return (
@@ -65,7 +70,7 @@ export default class SignUp extends Component {
                                         <p className="form__desc">with your social network.</p>
                                     </div>
                                     {/*Contact Form*/}
-                                    <form method="post">
+                                    <form method="post" onSubmit={this.handelSubmit}>
                                         <div className="row">
                                             <div className="col-md-4 col-sm-12 col-xs-12 form-group">
                                                 <button className="theme__btn submit__btn2 btn__google" type="submit">
@@ -85,23 +90,24 @@ export default class SignUp extends Component {
                                             <div className="col-md-12 col-sm-12 col-xs-12 account-assist text-center">
                                                 <p className="account__desc account__desc2">or</p>
                                             </div>{/* end col-md-12 */}
+                                            {this.state.error}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="text" value={this.state.first_name} onChange={this.handelFirstName} name="name" placeholder="First Name" />
+                                                <input className="form-control" type="text" value={this.state.firstname} onChange={(event) => { this.setState({ firstname: event.target.value }) }} name="firstname" placeholder="First Name" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="text" value={this.state.last_name} onChange={this.handelLastName} name="name" placeholder="Last Name" />
+                                                <input className="form-control" type="text" value={this.state.lastname} onChange={(event) => { this.setState({ lastname: event.target.value }) }} name="lastname" placeholder="Last Name" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="text" value={this.state.name} onChange={this.handelName} name="name" placeholder="Enter your username" />
+                                                <input className="form-control" type="text" value={this.state.username} onChange={(event) => { this.setState({ username: event.target.value }) }} name="username" placeholder="Enter your username" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="email" value={this.state.email} onChange={this.handelEmail} name="email" placeholder="Email Address" />
+                                                <input className="form-control" type="email" value={this.state.email} onChange={(event) => { this.setState({ email: event.target.value }) }} name="email" placeholder="Email Address" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="text" value={this.state.password} onChange={this.handelPassword} name="password" placeholder="Password" />
+                                                <input className="form-control" type="text" value={this.state.password} onChange={(event) => { this.setState({ password: event.target.value }) }} name="password" placeholder="Password" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" type="text" value={this.state.first_name} onChange={this.handelFirstName} name="password" placeholder="Confirm Password" />
+                                                <input className="form-control" type="text" value={this.state.confirm_password} onChange={(event) => { this.setState({ confirm_password: event.target.value }) }} name="confirm_password" placeholder="Confirm Password" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 col-xs-12 form-condition">
                                                 <div className="custom-checkbox">
