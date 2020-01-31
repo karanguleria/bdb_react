@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux'
-import store from './redux/store'
+import Store from './redux/store'
 import {
   BrowserRouter as Router,
   Route,
@@ -26,6 +26,8 @@ import SignUp from './pages/SignUp.jsx';
 import TopAuthor from './pages/TopAuthor.jsx';
 import TopPlace from './pages/TopPlace.jsx';
 import UserProfile from './pages/UserProfile.jsx';
+
+const store = Store();
 
 function App() {
   return (

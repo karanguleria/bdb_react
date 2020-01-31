@@ -1,6 +1,8 @@
-function mapStateToProps (state) {
+const mapStateToProps = (state) => {
     return {
-        ...state
-    }
-}
-export default mapStateToProps
+     ...state
+    };
+ };
+ 
+ export default mapStateToProps;
+ 

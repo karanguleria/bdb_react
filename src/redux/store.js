@@ -1,6 +1,21 @@
-import  {createStore} from 'redux'
-import cakeReducer from './cake/reducer'
+import { createStore } from "redux";
+import reducer from './reducer';
 
-const store  = createStore(cakeReducer)
+const initialState = {
+  count:0,
+  login:false,
+  token: false,
+  expiry: false,
+  username: false,
+  userimage: false,
+  userId : false,
+  categories:false,
+  userCategories: [],
+  selfies: false
+};
 
-export default store 
+function configureStore(initalState) {
+  return createStore(reducer,initialState);
+}
+
+export default configureStore;

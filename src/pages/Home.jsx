@@ -47,6 +47,7 @@ export class Home extends Component {
         this.state = {
             testimonials: []
         }
+        console.log(props);
 
         this.handleTestimonials = () => {
             axios.get('http://awardselfie.com/bdb/public/api/testimonials')
@@ -132,7 +133,7 @@ export class Home extends Component {
                                         </select>
                                     </div>
                                     <div className="main-search-input-btn">
-                                        <button className="button theme__btn" type="submit">Search</button>
+        <button onClick={() => { this.props.counter() }} className="button theme__btn" type="submit">Search {this.props.count}</button>
                                     </div>
                                 </div>
                                 <div className="highlighted-categories">
