@@ -11,8 +11,9 @@ import BlogPost from '../components/cards/BlogPost';
 import FunFacts from '../components/cards/FunFacts';
 import WeOffer from '../components/cards/WeOffer';
 import "slick-carousel/slick/slick.css";
-import mapStateToProps from '../redux/mapStateToProps'
-import mapDispatchToProps from '../redux/mapDispatchToProps'
+import { counter } from '.././redux';
+// import mapStateToProps from '.././redux/mapStateToProps';
+// import mapDispatchToProps from '.././redux/mapDispatchToProps';
 import Slider from "react-slick";
 import axios from 'axios';
 
@@ -133,7 +134,7 @@ export class Home extends Component {
                                         </select>
                                     </div>
                                     <div className="main-search-input-btn">
-        <button onClick={() => { this.props.counter() }} className="button theme__btn" type="submit">Search {this.props.count}</button>
+                                        <button onClick={() => { this.props.counter() }} className="button theme__btn" type="submit">Search {this.props.count}</button>
                                     </div>
                                 </div>
                                 <div className="highlighted-categories">
@@ -430,6 +431,19 @@ export class Home extends Component {
         )
     }
 }
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        counter: () => dispatch(counter())
+    };
+};
+const mapStateToProps = (state) => {
+    return {
+        ...state
+    };
+};
+
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)
 

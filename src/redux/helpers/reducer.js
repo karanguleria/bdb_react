@@ -1,9 +1,8 @@
-import axios from 'axios';
+const initialState = {
+    count: 0,
+};
 
-/*** Check if user is login or not and set state accordingly***/
-
-
-const reducer = (state, action) => {
+const reducer = (state = initialState, action) => {
     switch (action.type) {
         case 'COUNTER':
             console.log(state.count);

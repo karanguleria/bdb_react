@@ -1,1 +1,1 @@
-export { buyCake} from './cake/actions'
+export { counter } from './helpers/actions'

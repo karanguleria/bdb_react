@@ -1,2 +1,0 @@
-export const BUY_CAKE = "BUY_CAKE";
-export const GET_TESTIMONIALS = "GET_TESTIMONIALS";
