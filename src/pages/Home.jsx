@@ -1,19 +1,23 @@
 import React, { Component } from 'react'
+// import CakeComponent from '../components/testing/CakeComponent'
+// import IcecreamComponent from '../components/testing/IcecreamComponent'
+// import FruitComponent from '../components/testing/FruitComponent'
+// import NewCakeContainer from '../components/testing/NewCakeContainer'
+// import ItemContainer from '../components/testing/ItemContainer'
+// import UserContainer from '../components/testing/UserContainer'
+import CategoryContainer from '../components/cards/CategoryContainer';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { connect } from 'react-redux'
 import FeaturedCategory from '../components/cards/FeaturedCategory';
 import PopularCategory from '../components/cards/PopularCategory';
 import MostVisitedPlace from '../components/cards/MostVisitedPlace';
-import Testimonial from '../components/cards/Testimonial';
+// import Testimonial from '../components/cards/Testimonial';
+import TestimonialContainer from '../components/cards/TestimonialContainer';
 import ClientLogo from '../components/cards/ClientLogo';
 import BlogPost from '../components/cards/BlogPost';
 import FunFacts from '../components/cards/FunFacts';
 import WeOffer from '../components/cards/WeOffer';
 import "slick-carousel/slick/slick.css";
-import { counter } from '.././redux';
-// import mapStateToProps from '.././redux/mapStateToProps';
-// import mapDispatchToProps from '.././redux/mapDispatchToProps';
 import Slider from "react-slick";
 import axios from 'axios';
 
@@ -46,31 +50,46 @@ export class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            testimonials: []
+            // testimonials: []
         }
-        console.log(props);
+        // console.log(props);
 
-        this.handleTestimonials = () => {
-            axios.get('http://awardselfie.com/bdb/public/api/testimonials')
-                .then(response => {
-                    this.setState({ testimonials: response.data.data });
-                })
-                .catch(function (error) {
-                    console.log(error);
-                })
-        };
+        // this.handleTestimonials = () => {
+        //     axios.get('http://awardselfie.com/bdb/public/api/testimonials')
+        //         .then(response => {
+        //             this.setState({ testimonials: response.data.data });
+        //         })
+        //         .catch(function (error) {
+        //             console.log(error);
+        //         })
+        // };
     }
     componentDidMount() {
-        this.handleTestimonials();
+        // this.handleTestimonials();
 
     }
     render() {
         return (
             <div className="Home">
                 <Header />
+
                 <section className="hero-wrapper" id="home">
                     <div className="hero-overlay"></div>
                     <div className="container">
+                        {/* TEsting start */}
+
+                        {/* <UserContainer />
+                        <CakeComponent />
+                        <IcecreamComponent />
+                        <FruitComponent />
+                        <NewCakeContainer />
+                        <ItemContainer/> */}
+                        {/* <ItemContainer cake/>  */}
+                        {/* <br />
+                        <br />
+                        <br />
+                        <br /> */}
+                        {/* TEsting start */}
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="hero-heading">
@@ -134,7 +153,7 @@ export class Home extends Component {
                                         </select>
                                     </div>
                                     <div className="main-search-input-btn">
-                                        <button onClick={() => { this.props.counter() }} className="button theme__btn" type="submit">Search {this.props.count}</button>
+                                        <button onClick={() => { this.props.buyCake() }} className="button theme__btn" type="submit">Search {this.props.numberOfCakes} </button>
                                     </div>
                                 </div>
                                 <div className="highlighted-categories">
@@ -168,14 +187,7 @@ export class Home extends Component {
                             </div>
                         </div>
                         <div className="row cat-info-wrap">
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
-                            <PopularCategory />
+                            <CategoryContainer />
                         </div>
                     </div>
                 </section>
@@ -375,14 +387,9 @@ export class Home extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-8 col-md-offset-2">
-                                <div className="client-testimonial">
-                                    <Slider {...Testimonialsettings}>
-                                        {this.state.testimonials.map((testimonialItem, index) => (
-                                            <Testimonial key={testimonialItem.id} testimonial={testimonialItem} />
-                                        ))}
 
-                                    </Slider>
-                                </div>
+                                <TestimonialContainer />
+
                             </div>
                         </div>
                     </div>
@@ -431,21 +438,7 @@ export class Home extends Component {
         )
     }
 }
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        counter: () => dispatch(counter())
-    };
-};
-const mapStateToProps = (state) => {
-    return {
-        ...state
-    };
-};
-
-
-
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default Home
 
 
 

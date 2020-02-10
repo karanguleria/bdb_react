@@ -2,33 +2,21 @@ import React from 'react';
 import Header from '../components/Header.jsx';
 import Breadcrum from '../components/Breadcrum.jsx';
 import Footer from '../components/Footer';
-import PopularCategory from '../components/cards/PopularCategory';
+import CategoryContainer from '../components/cards/CategoryContainer';
 
 function Category() {
     return (
         <div className="Category">
             <Header />
-            <Breadcrum title="All Category"/>
+            <Breadcrum title="All Category" />
             <section className="cat-area cat-area2 all-cat-area">
                 <div className="container">
-                    <div className="row cat-info-wrap">
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                        <PopularCategory />
-                    </div>{/* end row */}
+
+                    <CategoryContainer />
+                    <CategoryContainer categoryType={'popular'} count={8} />
+                    <CategoryContainer categoryType={'featured'} count={8} />
+
+
                 </div>{/* end container */}
             </section>
             <Footer />
