@@ -21,13 +21,13 @@ function MostVisitedPlace(props) {
                         </h4>
                         <p className="listing-location">Bishop Avenue, New York</p>
                     </a>
-                    <a href="#" className="author-img-box">
+                    <a href="/#" className="author-img-box">
                         <img src="images/team1.jpg" className="author-img" alt="author-img" />
                     </a>
                     <ul className="listing-list">
                         <li><span className="la la-phone"></span> (416) 551-0589</li>
                         <li><span className="la la-link"></span>
-                            <a href="#"> www.mysitelink.com</a>
+                            <a href="/#"> www.mysitelink.com</a>
                         </li>
                         <li><span className="la la-calendar-check-o"></span>
                             Posted 1 month ago

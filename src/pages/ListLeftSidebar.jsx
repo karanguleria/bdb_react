@@ -64,63 +64,63 @@ function ListLeftSidebar() {
                                     <div className="listing-check-list-item listing-check-box">
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb1" />
-                                            <label for="chb1">Travel <span>11</span></label>
+                                            <label htmlFor="chb1">Travel <span>11</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb2" />
-                                            <label for="chb2">arts <span>22</span></label>
+                                            <label htmlFor="chb2">arts <span>22</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb3" />
-                                            <label for="chb3">technology <span>9</span></label>
+                                            <label htmlFor="chb3">technology <span>9</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb4" />
-                                            <label for="chb4">fashion <span>11</span></label>
+                                            <label htmlFor="chb4">fashion <span>11</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb5" />
-                                            <label for="chb5">technology <span>12</span></label>
+                                            <label htmlFor="chb5">technology <span>12</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb6" />
-                                            <label for="chb6">lifestyle <span>48</span></label>
+                                            <label htmlFor="chb6">lifestyle <span>48</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb7" />
-                                            <label for="chb7">design <span>23</span></label>
+                                            <label htmlFor="chb7">design <span>23</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb8" />
-                                            <label for="chb8">Computer <span>28</span></label>
+                                            <label htmlFor="chb8">Computer <span>28</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb9" />
-                                            <label for="chb9">Jobs <span>33</span></label>
+                                            <label htmlFor="chb9">Jobs <span>33</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb10" />
-                                            <label for="chb10">Real Estates <span>38</span></label>
+                                            <label htmlFor="chb10">Real Estates <span>38</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb11" />
-                                            <label for="chb11">Clothing <span>44</span></label>
+                                            <label htmlFor="chb11">Clothing <span>44</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb12" />
-                                            <label for="chb12">Beauty & spa <span>33</span></label>
+                                            <label htmlFor="chb12">Beauty & spa <span>33</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb13" />
-                                            <label for="chb13">Event <span>28</span></label>
+                                            <label htmlFor="chb13">Event <span>28</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb14" />
-                                            <label for="chb14">Health & Fitness <span>22</span></label>
+                                            <label htmlFor="chb14">Health & Fitness <span>22</span></label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb15" />
-                                            <label for="chb15">Restaurants <span>38</span></label>
+                                            <label htmlFor="chb15">Restaurants <span>38</span></label>
                                         </div>{/* end custom-checkbox */}
                                     </div>
                                 </div>{/* end sidebar-widget */}
@@ -128,23 +128,23 @@ function ListLeftSidebar() {
                                     <h3 className="widget__title">Filter by Price</h3>
                                     <div id="slider-range"></div>{/* end slider-range */}
                                     <div className="price-slider-amount">
-                                        <label for="amount" className="filter__label">Price:</label>
+                                        <label htmlFor="amount" className="filter__label">Price:</label>
                                         <input type="text" id="amount" className="amounts" readonly />
                                     </div>{/* end price-slider-amount */}
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget tag-widget">
                                     <h3 className="widget__title">Filter by Tags</h3>
                                     <ul className="widget__list tag__list">
-                                        <li><a href="#">technology</a></li>
-                                        <li><a href="#">fashion</a></li>
-                                        <li><a href="#">art</a></li>
-                                        <li><a href="#">design</a></li>
-                                        <li><a href="#">development</a></li>
-                                        <li><a href="#">food</a></li>
-                                        <li><a href="#">marketing</a></li>
-                                        <li><a href="#">video</a></li>
-                                        <li><a href="#">lifestyle</a></li>
-                                        <li><a href="#">adventure</a></li>
+                                        <li><a href="/#">technology</a></li>
+                                        <li><a href="/#">fashion</a></li>
+                                        <li><a href="/#">art</a></li>
+                                        <li><a href="/#">design</a></li>
+                                        <li><a href="/#">development</a></li>
+                                        <li><a href="/#">food</a></li>
+                                        <li><a href="/#">marketing</a></li>
+                                        <li><a href="/#">video</a></li>
+                                        <li><a href="/#">lifestyle</a></li>
+                                        <li><a href="/#">adventure</a></li>
                                     </ul>
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget">
@@ -152,55 +152,55 @@ function ListLeftSidebar() {
                                     <div className="listing-check-list-item listing-check-box">
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb16" />
-                                            <label for="chb16">Elevator in building</label>
+                                            <label htmlFor="chb16">Elevator in building</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb17" />
-                                            <label for="chb17">Friendly workspace</label>
+                                            <label htmlFor="chb17">Friendly workspace</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb18" />
-                                            <label for="chb18">Instant Book</label>
+                                            <label htmlFor="chb18">Instant Book</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb19" />
-                                            <label for="chb19">Wireless Internet</label>
+                                            <label htmlFor="chb19">Wireless Internet</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb20" />
-                                            <label for="chb20">Free parking on premises</label>
+                                            <label htmlFor="chb20">Free parking on premises</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb21" />
-                                            <label for="chb21">Free parking on street</label>
+                                            <label htmlFor="chb21">Free parking on street</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb22" />
-                                            <label for="chb22">Smoking allowed</label>
+                                            <label htmlFor="chb22">Smoking allowed</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb24" />
-                                            <label for="chb24">Events</label>
+                                            <label htmlFor="chb24">Events</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb25" />
-                                            <label for="chb25">Wheelchair accessible</label>
+                                            <label htmlFor="chb25">Wheelchair accessible</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb26" />
-                                            <label for="chb26"> Alarm system</label>
+                                            <label htmlFor="chb26"> Alarm system</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb27" />
-                                            <label for="chb27">Electricity</label>
+                                            <label htmlFor="chb27">Electricity</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb28" />
-                                            <label for="chb28">Attached garage</label>
+                                            <label htmlFor="chb28">Attached garage</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb29" />
-                                            <label for="chb29">Security cameras</label>
+                                            <label htmlFor="chb29">Security cameras</label>
                                         </div>{/* end custom-checkbox */}
                                     </div>
                                 </div>{/* end sidebar-widget */}
@@ -209,11 +209,11 @@ function ListLeftSidebar() {
                                     <div className="listing-check-box">
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb30" />
-                                            <label for="chb30">New</label>
+                                            <label htmlFor="chb30">New</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb31" />
-                                            <label for="chb31">old</label>
+                                            <label htmlFor="chb31">old</label>
                                         </div>{/* end custom-checkbox */}
                                     </div>
                                 </div>{/* end sidebar-widget */}
@@ -262,21 +262,21 @@ function ListLeftSidebar() {
                                     <div className="listing-check-box">
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb32" />
-                                            <label for="chb32">dealer</label>
+                                            <label htmlFor="chb32">dealer</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb33" />
-                                            <label for="chb33">individual</label>
+                                            <label htmlFor="chb33">individual</label>
                                         </div>{/* end custom-checkbox */}
                                         <div className="custom-checkbox">
                                             <input type="checkbox" id="chb34" />
-                                            <label for="chb34">reseller</label>
+                                            <label htmlFor="chb34">reseller</label>
                                         </div>{/* end custom-checkbox */}
                                     </div>{/* end listing-check-box */}
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget">
                                     <div className="apply-btn">
-                                        <a href="#" className="theme__btn">apply filter <span className="la la-angle-double-right"></span></a>
+                                        <a href="/#" className="theme__btn">apply filter <span className="la la-angle-double-right"></span></a>
                                     </div>
                                 </div>{/* end sidebar-widget */}
                             </div>{/* end sidebar */}
@@ -333,13 +333,13 @@ function ListLeftSidebar() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -383,13 +383,13 @@ function ListLeftSidebar() {
                                                 <h4 className="listing-title">beach blue boardwalk</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -435,13 +435,13 @@ function ListLeftSidebar() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -485,13 +485,13 @@ function ListLeftSidebar() {
                                                 <h4 className="listing-title">sticky band party</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -537,13 +537,13 @@ function ListLeftSidebar() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -587,13 +587,13 @@ function ListLeftSidebar() {
                                                 <h4 className="listing-title">17 Must-Try Fitness Workouts</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -639,13 +639,13 @@ function ListLeftSidebar() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -676,7 +676,7 @@ function ListLeftSidebar() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="button-shared text-center">
-                                <a href="#" className="theme__btn"><span className="la la-refresh"></span> load more</a>
+                                <a href="/#" className="theme__btn"><span className="la la-refresh"></span> load more</a>
                             </div>{/* end button-shared */}
                         </div>{/* end col-md-12 */}
                     </div>{/* end row */}

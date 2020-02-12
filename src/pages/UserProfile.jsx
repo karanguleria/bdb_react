@@ -16,7 +16,7 @@ function UserProfile() {
                         <div className="col-md-4">
                             <div className="user-content">
                                 <div className="user-avatar">
-                                    <img src="images/team1.jpg" alt="user-image" />
+                                    <img src="images/team1.jpg" alt="user" />
                                     <div className="user-meta-box">
                                         <h3 className="user__name">Mark Williamson</h3>
                                         <p className="user__text">Joined 4 years ago</p>
@@ -43,16 +43,16 @@ function UserProfile() {
                                     <h3 className="cont__title">Contact Details</h3>
                                     <ul className="author__contact">
                                         <li><span className="la la-map-marker"></span>101 Parkview, New York</li>
-                                        <li><span className="la la-phone"></span><a href="#">+7(111)123456789</a></li>
-                                        <li><span className="la la-envelope-o"></span><a href="#">example@gmail.com</a></li>
-                                        <li><span className="la la-globe"></span><a href="#">www.techydevs.com</a></li>
+                                        <li><span className="la la-phone"></span><a href="/#">+7(111)123456789</a></li>
+                                        <li><span className="la la-envelope-o"></span><a href="/#">example@gmail.com</a></li>
+                                        <li><span className="la la-globe"></span><a href="/#">www.techydevs.com</a></li>
                                     </ul>
                                     <ul className="author__link">
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-behance"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-linkedin"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-dribbble"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-behance"></i></a></li>
                                     </ul>
                                 </div>{/* end user-contact */}
                                 <div className="modal-wrapper">
@@ -96,7 +96,7 @@ function UserProfile() {
                                <MostVisitedPlace class="col-md-6"/>
                             </div>{/* end most-visited-wrap */}
                             <div className="button-shared text-center">
-                                <a href="#" className="theme__btn"><span className="la la-refresh"></span> load more listings</a>
+                                <a href="/#" className="theme__btn"><span className="la la-refresh"></span> load more listings</a>
                             </div>{/* end button-shared */}
                         </div>{/* end col-md-8 */}
                     </div>{/* end row */}

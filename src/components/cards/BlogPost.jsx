@@ -7,7 +7,7 @@ function BlogPost() {
             <div className="blog-post-item">
                 <div className="blog-post-img">
                     <Link to="/blog-single">
-                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                     </Link>
                 </div>
                 <div className="blog-post-body">
@@ -15,8 +15,8 @@ function BlogPost() {
                         50 Greatest Event Places in London
                         </Link>
                     <ul className="post__meta">
-                        <li>25 Dec, 2018 - <Link to="#" className="tag__text">Tips & Tricks</Link></li>
-                        <li><Link to="#">340 Likes</Link></li>
+                        <li>25 Dec, 2018 - <Link to="/#" className="tag__text">Tips & Tricks</Link></li>
+                        <li><Link to="/#">340 Likes</Link></li>
                     </ul>
                     <p className="blog__desc">
                         Sed ut perspiciatis unde omnis iste natus error sit

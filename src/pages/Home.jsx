@@ -9,7 +9,7 @@ import CategoryContainer from '../components/cards/CategoryContainer';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FeaturedCategory from '../components/cards/FeaturedCategory';
-import PopularCategory from '../components/cards/PopularCategory';
+// import PopularCategory from '../components/cards/PopularCategory';
 import MostVisitedPlace from '../components/cards/MostVisitedPlace';
 // import Testimonial from '../components/cards/Testimonial';
 import TestimonialContainer from '../components/cards/TestimonialContainer';
@@ -19,7 +19,7 @@ import FunFacts from '../components/cards/FunFacts';
 import WeOffer from '../components/cards/WeOffer';
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import axios from 'axios';
+// import axios from 'axios';
 
 var ClientLogosettings = {
     dots: false,
@@ -29,14 +29,14 @@ var ClientLogosettings = {
     slidesToScroll: 1,
     arrows: false
 };
-var Testimonialsettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-};
+// var Testimonialsettings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     arrows: true,
+// };
 var BlogPostsettings = {
     dots: true,
     infinite: true,
@@ -363,14 +363,14 @@ export class Home extends Component {
                     </div>
                 </section>
                 <section className="testimonial-area text-center">
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                    <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                    <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
                     <div className="container">
                         <div className="row">
                             <div className="row">

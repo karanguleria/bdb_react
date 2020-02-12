@@ -29,27 +29,27 @@ function Footer() {
                         </p>
                                         <ul className="foot-links">
                                             <li>
-                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                                                <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
                                                     <i className="fa fa-facebook"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                                                <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
                                                     <i className="fa fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
+                                                <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
                                                     <i className="fa fa-instagram"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
+                                                <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
                                                     <i className="fa fa-dribbble"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance">
+                                                <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Behance">
                                                     <i className="fa fa-behance"></i>
                                                 </a>
                                             </li>
@@ -74,12 +74,12 @@ function Footer() {
                                 <div className="footer-item">
                                     <h4 className="footer__title">Categories</h4>
                                     <ul className="user-links">
-                                        <li><a href="#">Shops</a></li>
-                                        <li><a href="#">Hotels</a></li>
-                                        <li><a href="#">Restaurants</a></li>
-                                        <li><a href="#">Bars</a></li>
-                                        <li><a href="#">Events</a></li>
-                                        <li><a href="#">Fitness</a></li>
+                                        <li><a href="/#">Shops</a></li>
+                                        <li><a href="/#">Hotels</a></li>
+                                        <li><a href="/#">Restaurants</a></li>
+                                        <li><a href="/#">Bars</a></li>
+                                        <li><a href="/#">Events</a></li>
+                                        <li><a href="/#">Fitness</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ function Footer() {
                                     <h4 className="footer__title">Contact with Us</h4>
                                     <ul className="user-links contact-links">
                                         <li><span className="la la-home contact-icon"></span> 12345 Little Baker St, Melbourne </li>
-                                        <li><span className="la la-headphones contact-icon"></span> <a href="#">+ 61 23 8093 3400</a></li>
-                                        <li><span className="la la-envelope-o contact-icon"></span> <a href="#">info@businessdatabook.com</a></li>
+                                        <li><span className="la la-headphones contact-icon"></span> <a href="/#">+ 61 23 8093 3400</a></li>
+                                        <li><span className="la la-envelope-o contact-icon"></span> <a href="/#">info@businessdatabook.com</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -102,9 +102,9 @@ function Footer() {
                         <span className="la la-heart-o"></span> by <a href="https://techydevs.com">Techydevs.</a>
                                     </p>
                                     <ul className="condition-links">
-                                        <li><a href="#">Terms & Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="/#">Terms & Conditions</a></li>
+                                        <li><a href="/#">Privacy Policy</a></li>
+                                        <li><a href="/#">Help Center</a></li>
                                     </ul>
                                 </div>
                             </div>

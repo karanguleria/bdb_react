@@ -37,7 +37,7 @@ function Dashboard() {
                                     </div>{/* end dashboard-nav */}
                                     <div className="dashboard-buttons">
                                         <a href="add-listing.html" className="theme__btn"><span className="la la-plus-circle"></span> create listing</a>
-                                        <a href="#" className="theme__btn"><span className="la la-power-off"></span> sign out</a>
+                                        <a href="/#" className="theme__btn"><span className="la la-power-off"></span> sign out</a>
                                     </div>
                                 </div>{/* end dashboard-wrap */}
                             </div>{/* end col-md-12 */}
@@ -72,8 +72,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.5</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -101,8 +101,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.6</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -130,8 +130,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.7</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -159,8 +159,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.5</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -188,8 +188,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.6</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -217,8 +217,8 @@ function Dashboard() {
                                                     <span className="rating-count">4.7</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
-                                                    <a href="javascript:void(0)" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-pencil-square"></span> edit</a>
+                                                    <a href="/#" className="theme__btn" data-toggle="modal" data-target=".bs-example-modal-sm"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -233,7 +233,7 @@ function Dashboard() {
                                 <div className="col-md-4">
                                     <div className="user-profile-action">
                                         <div className="user-pro-img">
-                                            <img src="images/team1.jpg" alt="user-image" />
+                                            <img src="images/team1.jpg" alt="user" />
                                             <div className="dropdown edit-btn-wrap">
                                                 <button className="edit-pic-btn" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     <span className="la la-photo"></span> Edit
@@ -396,7 +396,7 @@ function Dashboard() {
                                                     <span className="rating-count">4.5</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -424,7 +424,7 @@ function Dashboard() {
                                                     <span className="rating-count">4.6</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}
@@ -452,7 +452,7 @@ function Dashboard() {
                                                     <span className="rating-count">4.6</span>
                                                 </div>
                                                 <div className="edit-info">
-                                                    <a href="javascript:void(0)" className="theme__btn"><span className="la la-trash"></span> delete</a>
+                                                    <a href="/#" className="theme__btn"><span className="la la-trash"></span> delete</a>
                                                 </div>
                                             </div>
                                         </div>{/* end listing-content */}

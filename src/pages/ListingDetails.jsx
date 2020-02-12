@@ -17,22 +17,22 @@ function ListingDetails() {
                                 <h2 className="sl__title">Gallery</h2>
                                 <div className="gallery-carousel">
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                     <div data-dot="<img src='images/img1.jpg'>" className="gallery-item">
-                                        <img src="images/img1.jpg" alt="gallery-image" />
+                                        <img src="images/img1.jpg" alt="gallery" />
                                     </div>{/* end gallery-item */}
                                 </div>{/* end gallery-carousel */}
                                 <div className="listing-description">
@@ -63,7 +63,7 @@ function ListingDetails() {
                                 <div className="video-listing">
                                     <h2 className="sl__title">Video</h2>
                                     <div className="video__box">
-                                        <img src="images/img1.jpg" alt="video-image" />
+                                        <img src="images/img1.jpg" alt="video" />
                                         <div className="video__box-content">
                                             <a className="mfp-iframe video-play-btn" href="https://www.youtube.com/watch?v=5dAICQT1HiU" title="Play Video">
                                                 <span className="la la-play-circle-o"></span>
@@ -89,19 +89,19 @@ function ListingDetails() {
                                         </li>
                                         <li>
                                             <span><i className="la la-phone"></i> Phone:</span>
-                                            <a href="#">+7(111)123456789</a>
+                                            <a href="/#">+7(111)123456789</a>
                                         </li>
                                         <li>
                                             <span><i className="la la-external-link-square"></i> Website:</span>
-                                            <a href="#">www.techydevs.com</a>
+                                            <a href="/#">www.techydevs.com</a>
                                         </li>
                                     </ul>
                                     <div className="social-contact">
-                                        <a href="#" className="facebook-link"><i className="fa fa-facebook"></i> Facebook</a>
-                                        <a href="#" className="twitter-link"><i className="fa fa-twitter"></i> Twitter</a>
-                                        <a href="#" className="instagram-link"><i className="fa fa-instagram"></i> Instagram</a>
-                                        <a href="#" className="linkedin-link"><i className="fa fa-linkedin"></i> Linkedin</a>
-                                        <a href="#" className="youtube-link"><i className="fa fa-youtube-play"></i> Youtube</a>
+                                        <a href="/#" className="facebook-link"><i className="fa fa-facebook"></i> Facebook</a>
+                                        <a href="/#" className="twitter-link"><i className="fa fa-twitter"></i> Twitter</a>
+                                        <a href="/#" className="instagram-link"><i className="fa fa-instagram"></i> Instagram</a>
+                                        <a href="/#" className="linkedin-link"><i className="fa fa-linkedin"></i> Linkedin</a>
+                                        <a href="/#" className="youtube-link"><i className="fa fa-youtube-play"></i> Youtube</a>
                                     </div>
                                 </div>{/* end contact-listing */}
                                 <div className="review-listing">
@@ -129,15 +129,15 @@ function ListingDetails() {
                                                         Curabitur non nulla sit amet nisl tempus
                                         </p>
                                                     <div className="comment-reply">
-                                                        <a className="comment__btn" href="#">
+                                                        <a className="comment__btn" href="/#">
                                                             <i className="la la-reply"></i> Reply
                                             </a>
                                                         <p className="helpful__btn">
                                                             Was this review?
-                                                <a href="#">
+                                                <a href="/#">
                                                                 <i className="la la-thumbs-o-up"></i> Helpful
                                                 </a>
-                                                            <a href="#">
+                                                            <a href="/#">
                                                                 <i className="la la-smile-o"></i> Funny
                                                 </a>
                                                         </p>
@@ -167,15 +167,15 @@ function ListingDetails() {
                                                                 Curabitur non nulla sit amet nisl tempus
                                                 </p>
                                                             <div className="comment-reply">
-                                                                <a className="comment__btn" href="#">
+                                                                <a className="comment__btn" href="/#">
                                                                     <i className="la la-reply"></i> Reply
                                                     </a>
                                                                 <p className="helpful__btn">
                                                                     Was this review?
-                                                        <a href="#">
+                                                        <a href="/#">
                                                                         <i className="la la-thumbs-o-up"></i> Helpful
                                                         </a>
-                                                                    <a href="#">
+                                                                    <a href="/#">
                                                                         <i className="la la-smile-o"></i> Funny
                                                         </a>
                                                                 </p>
@@ -205,15 +205,15 @@ function ListingDetails() {
                                                         Curabitur non nulla sit amet nisl tempus
                                         </p>
                                                     <div className="comment-reply">
-                                                        <a className="comment__btn" href="#">
+                                                        <a className="comment__btn" href="/#">
                                                             <i className="la la-reply"></i> Reply
                                             </a>
                                                         <p className="helpful__btn">
                                                             Was this review?
-                                                <a href="#">
+                                                <a href="/#">
                                                                 <i className="la la-thumbs-o-up"></i> Helpful
                                                 </a>
-                                                            <a href="#">
+                                                            <a href="/#">
                                                                 <i className="la la-smile-o"></i> Funny
                                                 </a>
                                                         </p>
@@ -223,7 +223,7 @@ function ListingDetails() {
                                         </li>
                                     </ul>
                                     <div className="button-shared text-center">
-                                        <a href="#" className="theme__btn">
+                                        <a href="/#" className="theme__btn">
                                             <span className="la la-refresh"></span> Load more review
                             </a>
                                     </div>{/* end button-shared */}
@@ -310,22 +310,22 @@ function ListingDetails() {
                             <div className="sidebar">
                                 <div className="sidebar-widget author-widget2">
                                     <div className="author-box clearfix">
-                                        <img src="images/team1.jpg" alt="author-image" className="author__img" />
+                                        <img src="images/team1.jpg" alt="author" className="author__img" />
                                         <h4 className="author__title">Mark Williamson</h4>
                                         <p className="author__meta">Posted 3 Days ago</p>
                                     </div>
                                     <ul className="author__contact">
                                         <li><span className="la la-map-marker"></span>101 Parkview, New York</li>
-                                        <li><span className="la la-phone"></span><a href="#">+7(111)123456789</a></li>
-                                        <li><span className="la la-envelope-o"></span><a href="#">mark123@gmail.com</a></li>
-                                        <li><span className="la la-external-link-square"></span><a href="#">www.techydevs.com</a></li>
+                                        <li><span className="la la-phone"></span><a href="/#">+7(111)123456789</a></li>
+                                        <li><span className="la la-envelope-o"></span><a href="/#">mark123@gmail.com</a></li>
+                                        <li><span className="la la-external-link-square"></span><a href="/#">www.techydevs.com</a></li>
                                     </ul>
                                     <ul className="author__link">
-                                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                                        <li><a href="#"><i className="fa fa-behance"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-facebook"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-twitter"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-linkedin"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-dribbble"></i></a></li>
+                                        <li><a href="/#"><i className="fa fa-behance"></i></a></li>
                                     </ul>
                                     <div className="authorprofile__btn">
                                         <a href="user-profile.html" className="theme__btn">
@@ -384,7 +384,7 @@ function ListingDetails() {
                                         </div>{/* end input-number-group */}
                                     </div>{/* end booking-count */}
                                     <div className="booking-btn-box">
-                                        <a href="#" className="theme__btn">request to book</a>
+                                        <a href="/#" className="theme__btn">request to book</a>
                                     </div>{/* end booking-btn-box */}
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget open-widget">
@@ -407,13 +407,13 @@ function ListingDetails() {
                                     <h3 className="widget__title">Categories</h3>
                                     <div className="widget__list cat__list">
                                         <ul>
-                                            <li><a href="#">Restaurant <span className="tag-span">11</span></a></li>
-                                            <li><a href="#">Shop <span className="tag-span">21</span></a></li>
-                                            <li><a href="#">Fitness <span className="tag-span">31</span></a></li>
-                                            <li><a href="#">Event <span className="tag-span">24</span></a></li>
-                                            <li><a href="#">Bar <span className="tag-span">15</span></a></li>
-                                            <li><a href="#">Salon <span className="tag-span">33</span></a></li>
-                                            <li><a href="#">Beauty <span className="tag-span">10</span></a></li>
+                                            <li><a href="/#">Restaurant <span className="tag-span">11</span></a></li>
+                                            <li><a href="/#">Shop <span className="tag-span">21</span></a></li>
+                                            <li><a href="/#">Fitness <span className="tag-span">31</span></a></li>
+                                            <li><a href="/#">Event <span className="tag-span">24</span></a></li>
+                                            <li><a href="/#">Bar <span className="tag-span">15</span></a></li>
+                                            <li><a href="/#">Salon <span className="tag-span">33</span></a></li>
+                                            <li><a href="/#">Beauty <span className="tag-span">10</span></a></li>
                                         </ul>
                                     </div>{/* end cat-list */}
                                 </div>{/* end sidebar-widget */}
@@ -421,17 +421,17 @@ function ListingDetails() {
                                     <h3 className="widget__title">Tags</h3>
                                     <div className="widget__list tag__list">
                                         <ul>
-                                            <li><a href="#">Travel</a></li>
-                                            <li><a href="#">Restaurant</a></li>
-                                            <li><a href="#">Gym</a></li>
-                                            <li><a href="#">Food</a></li>
-                                            <li><a href="#">Office</a></li>
-                                            <li><a href="#">Car Parking</a></li>
-                                            <li><a href="#">Place</a></li>
-                                            <li><a href="#">Nightlife</a></li>
-                                            <li><a href="#">Disco</a></li>
-                                            <li><a href="#">Bar</a></li>
-                                            <li><a href="#">Bike Parking</a></li>
+                                            <li><a href="/#">Travel</a></li>
+                                            <li><a href="/#">Restaurant</a></li>
+                                            <li><a href="/#">Gym</a></li>
+                                            <li><a href="/#">Food</a></li>
+                                            <li><a href="/#">Office</a></li>
+                                            <li><a href="/#">Car Parking</a></li>
+                                            <li><a href="/#">Place</a></li>
+                                            <li><a href="/#">Nightlife</a></li>
+                                            <li><a href="/#">Disco</a></li>
+                                            <li><a href="/#">Bar</a></li>
+                                            <li><a href="/#">Bike Parking</a></li>
                                         </ul>
                                     </div>{/* end cat-list */}
                                 </div>{/* end sidebar-widget */}
@@ -441,7 +441,7 @@ function ListingDetails() {
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img1.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -455,13 +455,13 @@ function ListingDetails() {
                                                     <li><span className="la la-star"></span></li>
                                                     <li><span className="la la-star"></span></li>
                                                 </ul>
-                                                <span className="recent__meta"><a href="#">Gym & Fitness</a></span>
+                                                <span className="recent__meta"><a href="/#">Gym & Fitness</a></span>
                                             </div>{/* end recent-img */}
                                         </div>{/* end recent-item */}
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img1.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -475,13 +475,13 @@ function ListingDetails() {
                                                     <li><span className="la la-star"></span></li>
                                                     <li><span className="la la-star-half-empty"></span></li>
                                                 </ul>
-                                                <span className="recent__meta"><a href="#">Restaurants</a></span>
+                                                <span className="recent__meta"><a href="/#">Restaurants</a></span>
                                             </div>{/* end recent-img */}
                                         </div>{/* end recent-item */}
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img1.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -495,13 +495,13 @@ function ListingDetails() {
                                                     <li><span className="la la-star"></span></li>
                                                     <li><span className="la la-star"></span></li>
                                                 </ul>
-                                                <span className="recent__meta"><a href="#">Art & Design</a></span>
+                                                <span className="recent__meta"><a href="/#">Art & Design</a></span>
                                             </div>{/* end recent-img */}
                                         </div>{/* end recent-item */}
                                         <div className="recent-item">
                                             <div className="recent-img">
                                                 <a href="blog-single.html">
-                                                    <img src="images/img1.jpg" alt="blog image" />
+                                                    <img src="images/img1.jpg" alt="blog" />
                                                 </a>
                                             </div>{/* end recent-img */}
                                             <div className="recentpost-body">
@@ -515,12 +515,12 @@ function ListingDetails() {
                                                     <li><span className="la la-star"></span></li>
                                                     <li><span className="la la-star-half-empty"></span></li>
                                                 </ul>
-                                                <span className="recent__meta"><a href="#">Outdoors</a></span>
+                                                <span className="recent__meta"><a href="/#">Outdoors</a></span>
                                             </div>{/* end recent-img */}
                                         </div>{/* end recent-item */}
                                     </div>{/* end similar-list */}
                                     <div className="view-listing">
-                                        <a href="#" className="theme__btn">
+                                        <a href="/#" className="theme__btn">
                                             <span className="la la-eye"></span> see all listings
                             </a>
                                     </div>{/* end view-listing */}
@@ -529,27 +529,27 @@ function ListingDetails() {
                                     <h3 className="widget__title">follow & connect</h3>
                                     <ul className="social__links">
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
                                                 <i className="fa fa-dribbble"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Behance">
                                                 <i className="fa fa-behance"></i>
                                             </a>
                                         </li>
@@ -592,13 +592,13 @@ function ListingDetails() {
                                                 <h4 className="listing-title">Favorite Place Food Bank</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -640,13 +640,13 @@ function ListingDetails() {
                                                 <h4 className="listing-title">beach blue boardwalk</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -690,13 +690,13 @@ function ListingDetails() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -740,13 +740,13 @@ function ListingDetails() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -788,13 +788,13 @@ function ListingDetails() {
                                                 <h4 className="listing-title">Sena Clothing Shopping Mall</h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago
@@ -838,13 +838,13 @@ function ListingDetails() {
                                                 </h4>
                                                 <p className="listing-location">Bishop Avenue, New York</p>
                                             </a>
-                                            <a href="#" className="author-img-box">
+                                            <a href="/#" className="author-img-box">
                                                 <img src="images/team1.jpg" className="author-img" alt="author-img" />
                                             </a>
                                             <ul className="listing-list">
                                                 <li><span className="la la-phone"></span> (416) 551-0589</li>
                                                 <li><span className="la la-link"></span>
-                                                    <a href="#"> www.mysitelink.com</a>
+                                                    <a href="/#"> www.mysitelink.com</a>
                                                 </li>
                                                 <li><span className="la la-calendar-check-o"></span>
                                                     Posted 1 month ago

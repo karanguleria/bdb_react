@@ -16,7 +16,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -24,8 +24,8 @@ function BlogGrid() {
                                         50 Greatest Event Places in London
                         </a>
                                     <ul className="post__meta">
-                                        <li>25 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="javascript:void(0)">340 Likes</a></li>
+                                        <li>25 Dec, 2018 - <a href="/#" className="tag__text">Tips & Tricks</a></li>
+                                        <li><a href="/#">340 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -51,7 +51,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -59,8 +59,8 @@ function BlogGrid() {
                                         Top 10 Best Clothing Shops in Sydney
                         </a>
                                     <ul className="post__meta">
-                                        <li>26 Dec, 2018 - <a href="#" className="tag__text">Tips & News</a></li>
-                                        <li><a href="javascript:void(0)">620 Likes</a></li>
+                                        <li>26 Dec, 2018 - <a href="/#" className="tag__text">Tips & News</a></li>
+                                        <li><a href="/#">620 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -86,7 +86,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -94,8 +94,8 @@ function BlogGrid() {
                                         Top 15 Greatest Ideas for Health & Body
                         </a>
                                     <ul className="post__meta">
-                                        <li>27 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="javascript:void(0)">800 Likes</a></li>
+                                        <li>27 Dec, 2018 - <a href="/#" className="tag__text">Tips & Tricks</a></li>
+                                        <li><a href="/#">800 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -121,7 +121,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -129,8 +129,8 @@ function BlogGrid() {
                                         10 Greatest Food Places in United States
                         </a>
                                     <ul className="post__meta">
-                                        <li>25 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="javascript:void(0)">340 Likes</a></li>
+                                        <li>25 Dec, 2018 - <a href="/#" className="tag__text">Tips & Tricks</a></li>
+                                        <li><a href="/#">340 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -156,7 +156,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -164,8 +164,8 @@ function BlogGrid() {
                                         Best way to train young artists to be creative?
                         </a>
                                     <ul className="post__meta">
-                                        <li>26 Dec, 2018 - <a href="#" className="tag__text">Tips & News</a></li>
-                                        <li><a href="javascript:void(0)">620 Likes</a></li>
+                                        <li>26 Dec, 2018 - <a href="/#" className="tag__text">Tips & News</a></li>
+                                        <li><a href="/#">620 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -191,7 +191,7 @@ function BlogGrid() {
                             <div className="blog-post-item">
                                 <div className="blog-post-img">
                                     <a href="blog-single.html">
-                                        <img src="images/img1.jpg" alt="blog image" className="blog__img" />
+                                        <img src="images/img1.jpg" alt="blog" className="blog__img" />
                                     </a>
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
@@ -199,8 +199,8 @@ function BlogGrid() {
                                         Moonlight Forest - Lantern Art Festival at Los Angeles
                         </a>
                                     <ul className="post__meta">
-                                        <li>27 Dec, 2018 - <a href="#" className="tag__text">Tips & Tricks</a></li>
-                                        <li><a href="javascript:void(0)">800 Likes</a></li>
+                                        <li>27 Dec, 2018 - <a href="/#" className="tag__text">Tips & Tricks</a></li>
+                                        <li><a href="/#">800 Likes</a></li>
                                     </ul>
                                     <p className="blog__desc">
                                         Sed ut perspiciatis unde omnis iste natus error sit
@@ -227,12 +227,12 @@ function BlogGrid() {
                         <div className="col-md-12">
                             <div className="pagination-wrapper text-center">
                                 <ul className="pagination-list">
-                                    <li><a href="#" className="pag__prev"><i className="fa fa-angle-double-left"></i></a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li className="pag__active"><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#" className="pag__next"><i className="fa fa-angle-double-right"></i></a></li>
+                                    <li><a href="/#" className="pag__prev"><i className="fa fa-angle-double-left"></i></a></li>
+                                    <li><a href="/#">1</a></li>
+                                    <li className="pag__active"><a href="/#">2</a></li>
+                                    <li><a href="/#">3</a></li>
+                                    <li><a href="/#">4</a></li>
+                                    <li><a href="/#" className="pag__next"><i className="fa fa-angle-double-right"></i></a></li>
                                 </ul>
                             </div>{/* end pagination-wrapper */}
                         </div>{/* end col-md-12 */}

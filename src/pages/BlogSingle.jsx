@@ -6,8 +6,8 @@ import Footer from '../components/Footer.jsx';
 function BlogSingle() {
     return (
         <div className="BlogSingle">
-            <Header/>
-            <Breadcrum/>
+            <Header />
+            <Breadcrum />
             {/* ================================        START BLOG AREA ================================= */}
             <section className="blog-area inner-blog-area blog-single-area">
                 <div className="container">
@@ -15,7 +15,7 @@ function BlogSingle() {
                         <div className="col-md-8">
                             <div className="blog-post-item blog-single-post">
                                 <div className="blog-post-img">
-                                    <img src="images/video-img.jpg" alt="blog image" className="blog__img" />
+                                    <img src="images/video-img.jpg" alt="blog" className="blog__img" />
                                 </div>{/* end blog-post-img */}
                                 <div className="blog-post-body">
                                     <ul className="post__meta">
@@ -23,8 +23,8 @@ function BlogSingle() {
                                             <img src="images/team1.jpg" alt="admin-img" />
                                             <span>By David Wise</span>
                                         </li>
-                                        <li>25 Dec, 2018 - <a href="#" className="tag__text">Tips & Tutorials</a></li>
-                                        <li><a href="javascript:void(0)">800 Likes</a></li>
+                                        <li>25 Dec, 2018 - <a href="/#" className="tag__text">Tips & Tutorials</a></li>
+                                        <li><a href="/#">800 Likes</a></li>
                                     </ul>
                                     <a href="blog-single.html" className="blog__title bs__title">
                                         How to Improve Your Customer Service Experience
@@ -97,36 +97,36 @@ function BlogSingle() {
                                         <div className="bt-item tags">
                                             <ul>
                                                 <li><span className="bts__title">Tags:</span></li>
-                                                <li><a href="#">Technology</a></li>
-                                                <li><a href="#">Lifestyle</a></li>
-                                                <li><a href="#">Fashion</a></li>
+                                                <li><a href="/#">Technology</a></li>
+                                                <li><a href="/#">Lifestyle</a></li>
+                                                <li><a href="/#">Fashion</a></li>
                                             </ul>
                                         </div>
                                         <div className="bt-item shares">
                                             <ul>
                                                 <li><span className="bts__title">Share to:</span></li>
                                                 <li>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                                    <a href="/#" data-toggle="tooltip" data-placement="top" title="Facebook">
                                                         <i className="fa fa-facebook"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                                    <a href="/#" data-toggle="tooltip" data-placement="top" title="Twitter">
                                                         <i className="fa fa-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                                    <a href="/#" data-toggle="tooltip" data-placement="top" title="Instagram">
                                                         <i className="fa fa-instagram"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble">
+                                                    <a href="/#" data-toggle="tooltip" data-placement="top" title="Dribbble">
                                                         <i className="fa fa-dribbble"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Behance">
+                                                    <a href="/#" data-toggle="tooltip" data-placement="top" title="Behance">
                                                         <i className="fa fa-behance"></i>
                                                     </a>
                                                 </li>
@@ -150,14 +150,14 @@ function BlogSingle() {
                                                             Ut enim ad minim veniam, quis nostrud exercitation.
                                             </p>
                                                         <div className="comment-reply">
-                                                            <a className="comment__btn" href="#">
+                                                            <a className="comment__btn" href="/#">
                                                                 <span className="la la-mail-reply"></span> Reply
                                                 </a>
                                                             <p className="helpful__action">
-                                                                <a href="#">
+                                                                <a href="/#">
                                                                     <i className="la la-thumbs-o-up"></i> Helpful
                                                     </a>
-                                                                <a href="#">
+                                                                <a href="/#">
                                                                     <i className="la la-smile-o"></i> Funny
                                                     </a>
                                                             </p>
@@ -181,14 +181,14 @@ function BlogSingle() {
                                                                     Ut enim ad minim veniam.
                                                     </p>
                                                                 <div className="comment-reply">
-                                                                    <a className="comment__btn" href="#">
+                                                                    <a className="comment__btn" href="/#">
                                                                         <span className="la la-mail-reply"></span> Reply
                                                         </a>
                                                                     <p className="helpful__action">
-                                                                        <a href="#">
+                                                                        <a href="/#">
                                                                             <i className="la la-thumbs-o-up"></i> Helpful
                                                             </a>
-                                                                        <a href="#">
+                                                                        <a href="/#">
                                                                             <i className="la la-smile-o"></i> Funny
                                                             </a>
                                                                     </p>
@@ -212,14 +212,14 @@ function BlogSingle() {
                                                             Ut enim ad minim veniam, quis nostrud exercitation.
                                             </p>
                                                         <div className="comment-reply">
-                                                            <a className="comment__btn" href="#">
+                                                            <a className="comment__btn" href="/#">
                                                                 <span className="la la-mail-reply"></span> Reply
                                                 </a>
                                                             <p className="helpful__action">
-                                                                <a href="#">
+                                                                <a href="/#">
                                                                     <i className="la la-thumbs-o-up"></i> Helpful
                                                     </a>
-                                                                <a href="#">
+                                                                <a href="/#">
                                                                     <i className="la la-smile-o"></i> Funny
                                                     </a>
                                                             </p>
@@ -276,32 +276,32 @@ function BlogSingle() {
                                     </form>
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget author-widget">
-                                    <img src="images/team1.jpg" alt="author-image" className="author__img" />
+                                    <img src="images/team1.jpg" alt="author" className="author__img" />
                                     <h4 className="author__title">Mark Williamson</h4>
                                     <p className="author__meta">Senior Web Developer</p>
                                     <ul className="author__profile">
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                            <a href="/#" data-toggle="tooltip" data-placement="top" title="Facebook">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                            <a href="/#" data-toggle="tooltip" data-placement="top" title="Twitter">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                            <a href="/#" data-toggle="tooltip" data-placement="top" title="Instagram">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble">
+                                            <a href="/#" data-toggle="tooltip" data-placement="top" title="Dribbble">
                                                 <i className="fa fa-dribbble"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Behance">
+                                            <a href="/#" data-toggle="tooltip" data-placement="top" title="Behance">
                                                 <i className="fa fa-behance"></i>
                                             </a>
                                         </li>
@@ -316,16 +316,16 @@ function BlogSingle() {
                                 <div className="sidebar-widget category-widget">
                                     <h3 className="widget__title">post Categories</h3>
                                     <ul className="widget__list cat__list">
-                                        <li><a href="#">Restaurants <span className="tag-span">22</span></a></li>
-                                        <li><a href="#">travel <span className="tag-span">15</span></a></li>
-                                        <li><a href="#">disco <span className="tag-span">33</span></a></li>
-                                        <li><a href="#">design <span className="tag-span">33</span></a></li>
-                                        <li><a href="#">technology <span className="tag-span">38</span></a></li>
-                                        <li><a href="#">lifestyle <span className="tag-span">25</span></a></li>
-                                        <li><a href="#">fashion <span className="tag-span">30</span></a></li>
-                                        <li><a href="#">art <span className="tag-span">22</span></a></li>
-                                        <li><a href="#">food <span className="tag-span">15</span></a></li>
-                                        <li><a href="#">design <span className="tag-span">33</span></a></li>
+                                        <li><a href="/#">Restaurants <span className="tag-span">22</span></a></li>
+                                        <li><a href="/#">travel <span className="tag-span">15</span></a></li>
+                                        <li><a href="/#">disco <span className="tag-span">33</span></a></li>
+                                        <li><a href="/#">design <span className="tag-span">33</span></a></li>
+                                        <li><a href="/#">technology <span className="tag-span">38</span></a></li>
+                                        <li><a href="/#">lifestyle <span className="tag-span">25</span></a></li>
+                                        <li><a href="/#">fashion <span className="tag-span">30</span></a></li>
+                                        <li><a href="/#">art <span className="tag-span">22</span></a></li>
+                                        <li><a href="/#">food <span className="tag-span">15</span></a></li>
+                                        <li><a href="/#">design <span className="tag-span">33</span></a></li>
                                     </ul>
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget recent-widget">
@@ -333,7 +333,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img1.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -346,7 +346,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img1.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -359,7 +359,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img1.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -372,7 +372,7 @@ function BlogSingle() {
                                     <div className="recent-item">
                                         <div className="recent-img">
                                             <a href="blog-single.html">
-                                                <img src="images/img1.jpg" alt="blog image" />
+                                                <img src="images/img1.jpg" alt="blog" />
                                             </a>
                                         </div>{/* end recent-img */}
                                         <div className="recentpost-body">
@@ -402,43 +402,43 @@ function BlogSingle() {
                                 <div className="sidebar-widget tag-widget">
                                     <h3 className="widget__title">popular tags</h3>
                                     <ul className="widget__list tag__list">
-                                        <li><a href="#">technology</a></li>
-                                        <li><a href="#">fashion</a></li>
-                                        <li><a href="#">art</a></li>
-                                        <li><a href="#">design</a></li>
-                                        <li><a href="#">development</a></li>
-                                        <li><a href="#">food</a></li>
-                                        <li><a href="#">marketing</a></li>
-                                        <li><a href="#">video</a></li>
-                                        <li><a href="#">lifestyle</a></li>
-                                        <li><a href="#">adventure</a></li>
+                                        <li><a href="/#">technology</a></li>
+                                        <li><a href="/#">fashion</a></li>
+                                        <li><a href="/#">art</a></li>
+                                        <li><a href="/#">design</a></li>
+                                        <li><a href="/#">development</a></li>
+                                        <li><a href="/#">food</a></li>
+                                        <li><a href="/#">marketing</a></li>
+                                        <li><a href="/#">video</a></li>
+                                        <li><a href="/#">lifestyle</a></li>
+                                        <li><a href="/#">adventure</a></li>
                                     </ul>
                                 </div>{/* end sidebar-widget */}
                                 <div className="sidebar-widget social-widget">
                                     <h3 className="widget__title">follow & connect</h3>
                                     <ul className="social__links">
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Facebook">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Twitter">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Instagram">
                                                 <i className="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Dribbble">
                                                 <i className="fa fa-dribbble"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance">
+                                            <a href="/#" data-toggle="tooltip" data-placement="bottom" title="Behance">
                                                 <i className="fa fa-behance"></i>
                                             </a>
                                         </li>
@@ -450,7 +450,7 @@ function BlogSingle() {
                 </div>{/* end container */}
             </section>{/* end blog-area */}
             {/* ================================        START BLOG AREA ================================= */}
-            <Footer/>
+            <Footer />
         </div>
     );
 }

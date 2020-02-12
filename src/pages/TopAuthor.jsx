@@ -16,8 +16,8 @@ function TopAuthor() {
                             <div className="top-author-slider">
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">steven harvey</h4>
                                             <ul className="top__author-meta">
                                                 <li>Australia</li>
@@ -33,13 +33,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">alex smith</h4>
                                             <ul className="top__author-meta">
                                                 <li>united states</li>
@@ -55,13 +55,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">sirazz khan</h4>
                                             <ul className="top__author-meta">
                                                 <li>united kingdom</li>
@@ -77,13 +77,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">Daniel Wave</h4>
                                             <ul className="top__author-meta">
                                                 <li>italy</li>
@@ -99,13 +99,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">juhen villa</h4>
                                             <ul className="top__author-meta">
                                                 <li>bangladesh</li>
@@ -121,13 +121,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">Daniel Wave</h4>
                                             <ul className="top__author-meta">
                                                 <li>costa rica</li>
@@ -143,13 +143,13 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                                 <div className="top-author-item">
                                     <div className="topauthor__img">
-                                        <a href="#">
-                                            <img src="images/team1.jpg" alt="author image" />
+                                        <a href="/#">
+                                            <img src="images/team1.jpg" alt="author" />
                                             <h4 className="top__author-title">jhon doe</h4>
                                             <ul className="top__author-meta">
                                                 <li>france</li>
@@ -165,7 +165,7 @@ function TopAuthor() {
                                         </ul>
                                     </div>{/* end topauthor__content */}
                                     <div className="topauthor__btn">
-                                        <a href="#" className="author__btn"><span className="la la-refresh"></span> follow</a>
+                                        <a href="/#" className="author__btn"><span className="la la-refresh"></span> follow</a>
                                     </div>{/* end topauthor__btn */}
                                 </div>{/* end top-author-item */}
                             </div>{/* end top-author-slider */}

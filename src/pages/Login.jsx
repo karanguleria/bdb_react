@@ -37,6 +37,7 @@ export class Login extends Component {
         })
     }
     handelRemembermeChange(evt) {
+        console.log(evt.target.value);
         this.setState({
             remember_me: evt.target.value,
         })
@@ -136,8 +137,8 @@ export class Login extends Component {
                                             <div className="col-md-12 col-sm-12 col-xs-12 form-condition">
                                                 <div className="custom-checkbox">
                                                     <input type="checkbox" id="chb1" value={this.state.remember_me} onChange={this.handelRemembermeChange} />
-                                                    <label for="chb1" >Remember Me</label>
-                                                    <a href="#" className="pass__desc"> Forgot my password?</a>
+                                                    <label htmlFor="chb1" >Remember Me</label>
+                                                    <a href="/#" className="pass__desc"> Forgot my password?</a>
                                                 </div>
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 col-xs-12 form-group">

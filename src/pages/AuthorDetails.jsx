@@ -54,7 +54,7 @@ function AuthorDetails() {
                                     feugiat. In fermentum facilisis massa, a consequat purus viverra.
                                     Aliquam erat volutpat.
                     </p>
-                                <a href="#" className="theme__btn">find out more</a>
+                                <a href="/#" className="theme__btn">find out more</a>
                             </div>{/* end about-content */}
                         </div>{/* end col-md-6 */}
                         <div className="col-md-6">
@@ -143,14 +143,14 @@ function AuthorDetails() {
             {/* ================================    END HIW AREA ================================= */}
             {/* ================================       START TESTIMONIAL AREA ================================= */}
             <section className="testimonial-area testimonial-area2 text-center">
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
-                <img src="images/team1.jpg" alt="testtmonial-image" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
+                <img src="images/team1.jpg" alt="testtmonial" className="random-img" />
                 <div className="container">
                     <div className="row">
                         <div className="row">
@@ -180,7 +180,7 @@ function AuthorDetails() {
                             </p>
                                     </div>
                                     <div className="testi__img">
-                                        <img src="images/team1.jpg" alt="testimonial image" />
+                                        <img src="images/team1.jpg" alt="testimonial" />
                                     </div>
                                     <h4 className="tesi__title">Richard Doe</h4>
                                     <span className="testi__meta">united states</span>
@@ -197,7 +197,7 @@ function AuthorDetails() {
                             </p>
                                     </div>
                                     <div className="testi__img">
-                                        <img src="images/team1.jpg" alt="testimonial image" />
+                                        <img src="images/team1.jpg" alt="testimonial" />
                                     </div>
                                     <h4 className="tesi__title">Denwen Evil</h4>
                                     <span className="testi__meta">united states</span>
@@ -214,7 +214,7 @@ function AuthorDetails() {
                             </p>
                                     </div>
                                     <div className="testi__img">
-                                        <img src="images/team1.jpg" alt="testimonial image" />
+                                        <img src="images/team1.jpg" alt="testimonial" />
                                     </div>
                                     <h4 className="tesi__title">Amanda Evil</h4>
                                     <span className="testi__meta">united states</span>
@@ -316,12 +316,12 @@ function AuthorDetails() {
                                     </div>
                                     <div className="team__social">
                                         <ul className="team__social-link">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-vk"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-vk"></i></a></li>
                                         </ul>
-                                        <a className="team__email-link" href="#"><span className="la la-envelope-o"></span></a>
+                                        <a className="team__email-link" href="/#"><span className="la la-envelope-o"></span></a>
                                     </div>
                                 </div>{/* end team-content */}
                             </div>{/* end team-item */}
@@ -340,12 +340,12 @@ function AuthorDetails() {
                                     </div>
                                     <div className="team__social">
                                         <ul className="team__social-link">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-vk"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-vk"></i></a></li>
                                         </ul>
-                                        <a className="team__email-link" href="#"><span className="la la-envelope-o"></span></a>
+                                        <a className="team__email-link" href="/#"><span className="la la-envelope-o"></span></a>
                                     </div>
                                 </div>{/* end team-content */}
                             </div>{/* end team-item */}
@@ -364,12 +364,12 @@ function AuthorDetails() {
                                     </div>
                                     <div className="team__social">
                                         <ul className="team__social-link">
-                                            <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-vk"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-twitter"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-instagram"></i></a></li>
+                                            <li><a href="/#"><i className="fa fa-vk"></i></a></li>
                                         </ul>
-                                        <a className="team__email-link" href="#"><span className="la la-envelope-o"></span></a>
+                                        <a className="team__email-link" href="/#"><span className="la la-envelope-o"></span></a>
                                     </div>
                                 </div>{/* end team-content */}
                             </div>{/* end team-item */}

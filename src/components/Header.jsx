@@ -21,7 +21,7 @@ function Header() {
                           <Link to="/">home</Link >
                         </li>
                         <li>
-                          <a href="#">categories <span className="la la-angle-down"></span></a>
+                          <a href="/#">categories <span className="la la-angle-down"></span></a>
                           <ul className="dropdown-menu-item">
                             <li><Link to="/all-categories">all categories</Link></li>
                             <li><Link to="/all-locations">all locations</Link></li>
@@ -29,7 +29,7 @@ function Header() {
                           </ul>
                         </li>
                         <li>
-                          <a href="#">listings <span className="la la-angle-down"></span></a>
+                          <a href="/#">listings <span className="la la-angle-down"></span></a>
                           <ul className="dropdown-menu-item">
                             <li><Link to="/list-left-sidebar">Listing Main<span className="new-page-badge">new</span></Link></li>
                             <li><Link to="/listing-details">listing details</Link></li>
@@ -37,7 +37,7 @@ function Header() {
                           </ul>
                         </li>
                         <li>
-                          <a href="#">pages <span className="la la-angle-down"></span></a>
+                          <a href="/#">pages <span className="la la-angle-down"></span></a>
                           <ul className="dropdown-menu-item">
                             <li><Link to="/user-profile">user profile</Link></li>
                             <li><Link to="/top-author">top authors<span className="new-page-badge">new</span></Link></li>
@@ -50,7 +50,7 @@ function Header() {
                           </ul>
                         </li>
                         <li>
-                          <a href="#">blog <span className="la la-angle-down"></span></a>
+                          <a href="/#">blog <span className="la la-angle-down"></span></a>
                           <ul className="dropdown-menu-item">
                             <li><Link to="/blog-grid">blog grid</Link></li>
                             <li><Link to="/blog-left-sidebar">left sidebar<span className="new-page-badge">new</span></Link></li>
@@ -100,13 +100,13 @@ function Header() {
           <div className="side-menu-wrap">
             <ul className="side-menu-ul">
               <li>
-                <a href="#">home <span className="la la-angle-down"></span></a>
+                <a href="/#">home <span className="la la-angle-down"></span></a>
                 <ul className="dropdown-menu-item">
                   <li><Link to="/">home one</Link></li>
                 </ul>
               </li>
               <li>
-                <a href="#">categories <span className="la la-angle-down"></span></a>
+                <a href="/#">categories <span className="la la-angle-down"></span></a>
                 <ul className="dropdown-menu-item">
                   <li><Link to="/all-categories">all categories</Link></li>
                   <li><Link to="/all-locations">all locations</Link></li>
@@ -114,7 +114,7 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a href="#">listings <span className="la la-angle-down"></span></a>
+                <a href="/#">listings <span className="la la-angle-down"></span></a>
                 <ul className="dropdown-menu-item">
                   <li><Link to="/listing-grid">listing grid</Link></li>
                   <li><Link to="/list-map-view">map view <span className="new-page-badge">new</span></Link></li>
@@ -127,7 +127,7 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a href="#">pages <span className="la la-angle-down"></span></a>
+                <a href="/#">pages <span className="la la-angle-down"></span></a>
                 <ul className="dropdown-menu-item">
                   <li><Link to="/user-profile">user profile</Link></li>
                   <li><Link to="/top-author">top authors<span className="new-page-badge">new</span></Link></li>
@@ -141,7 +141,7 @@ function Header() {
                 </ul>
               </li>
               <li>
-                <a href="#">blog <span className="la la-angle-down"></span></a>
+                <a href="/#">blog <span className="la la-angle-down"></span></a>
                 <ul className="dropdown-menu-item">
                   <li><Link to="/blog-grid">blog grid</Link></li>
                   <li><Link to="/blog-left-sidebar">left sidebar<span className="new-page-badge">new</span></Link></li>
@@ -162,7 +162,7 @@ function Header() {
           </div>
           <div className="side-menu-wrap side-user-menu-wrap">
             <div className="side-user-img" />
-            <img src="images/team1.jpg" alt="image" />
+            <img src="images/team1.jpg" alt="team" />
             <h4 className="su__name">Mark Williamson</h4>
             <span className="su__meta">Joined 3 years ago</span>
             <div className="avatar-icon">
@@ -175,9 +175,9 @@ function Header() {
             <li><Link to="/dashboard"><span className="la la-bookmark-o user-icon"></span> My Bookmarks</Link></li>
             <li><Link to="/dashboard"><span className="la la-plus-circle user-icon"></span> add listing</Link></li>
             <li><div className="dropdown-divider"></div></li>
-            <li><a href="#"><span className="la la-question user-icon"></span> help</a></li>
-            <li><a href="#"><span className="la la-gear user-icon"></span> Settings</a></li>
-            <li><a href="#"><span className="la la-power-off user-icon"></span> Sign Out</a></li>
+            <li><a href="/#"><span className="la la-question user-icon"></span> help</a></li>
+            <li><a href="/#"><span className="la la-gear user-icon"></span> Settings</a></li>
+            <li><a href="/#"><span className="la la-power-off user-icon"></span> Sign Out</a></li>
           </ul>
           <div className="side-user-search contact-form-action">
             <form method="post">

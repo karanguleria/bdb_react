@@ -112,11 +112,11 @@ export default class SignUp extends Component {
                                             <div className="col-md-12 col-sm-12 col-xs-12 form-condition">
                                                 <div className="custom-checkbox">
                                                     <input type="checkbox" id="chb1" />
-                                                    <label for="chb1">I agree to Dirto's <Link to="#">Privacy Policy</Link></label>
+                                                    <label htmlFor="chb1">I agree to Dirto's <Link to="/#">Privacy Policy</Link></label>
                                                 </div>
                                                 <div className="custom-checkbox">
                                                     <input type="checkbox" id="chb2" />
-                                                    <label for="chb2">I agree to Dirto's <Link to="#">Terms of Services</Link></label>
+                                                    <label htmlFor="chb2">I agree to Dirto's <Link to="/#">Terms of Services</Link></label>
                                                 </div>
                                             </div>{/* end col-md-12 */}
 

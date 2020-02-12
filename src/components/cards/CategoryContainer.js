@@ -15,26 +15,26 @@ function CategoriesContainer({ categoryType, categoriesData, fetchCategories }) 
     if (categoriesData.error) {
         return (<p>{categoriesData.error}</p>)
     }
-
-    if (categoryType == 'popular') {
-        var displayData = categoriesData.popularCategories
+    var displayData = ''
+    if (categoryType === 'popular') {
+        displayData = categoriesData.popularCategories
     }
-    else if (categoryType == 'featured') {
-        var displayData = categoriesData.featuredCategories
+    else if (categoryType === 'featured') {
+        displayData = categoriesData.featuredCategories
     } else {
-        var displayData = categoriesData.categories
+        displayData = categoriesData.categories
     }
     return (
         <div className="row cat-info-wrap">
             {
                 displayData &&
                 displayData.map(category =>
-                    <div className="PopularCategory col-md-3 col-sm-6">
+                    <div key={category.id} className="PopularCategory col-md-3 col-sm-6">
                         <div className="cat-item">
                             <figure className="category-fig">
-                                <img src="images/img1.jpg" alt="category-image" className="cat-img" />
+                                <img src="images/img1.jpg" alt="category" className="cat-img" />
                                 <figcaption className="fig-caption">
-                                    <a href="#" className="cat-fig-box">
+                                    <a href="/#" className="cat-fig-box">
                                         <div className="cat__icon">
                                             <span className={category.icon}></span>
                                         </div>

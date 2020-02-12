@@ -10,9 +10,9 @@ function AllLocation() {
             <Header />
             <Breadcrum />
             {/* ================================    START CAT AREA ================================= */}
-            <section class="cat-area cat-area2 cat-area3">
-                <div class="container">
-                    <div class="row cat-info-wrap">
+            <section className="cat-area cat-area2 cat-area3">
+                <div className="container">
+                    <div className="row cat-info-wrap">
                         <Location />
                         <Location />
                         <Location />

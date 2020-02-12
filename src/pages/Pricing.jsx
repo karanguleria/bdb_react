@@ -36,7 +36,7 @@ function Pricing() {
                                             <li><span className="la la-close"></span> Lifetime Availability</li>
                                             <li><span className="la la-close"></span> Featured In Search Results</li>
                                         </ul>
-                                        <a href="#" className="theme__btn">continue</a>
+                                        <a href="/#" className="theme__btn">continue</a>
                                     </div>{/* end price-listitem */}
                                 </div>{/* end price-content */}
                             </div>{/* end price-item */}
@@ -65,7 +65,7 @@ function Pricing() {
                                             <li><span className="la la-close"></span> Lifetime Availability</li>
                                             <li><span className="la la-close"></span> Featured In Search Results</li>
                                         </ul>
-                                        <a href="#" className="theme__btn">continue</a>
+                                        <a href="/#" className="theme__btn">continue</a>
                                     </div>{/* end price-listitem */}
                                 </div>{/* end price-content */}
                                 <div className="recommended-wrap">
@@ -98,7 +98,7 @@ function Pricing() {
                                             <li><span className="la la-check"></span> Lifetime Availability</li>
                                             <li><span className="la la-check"></span> Featured In Search Results</li>
                                         </ul>
-                                        <a href="#" className="theme__btn">continue</a>
+                                        <a href="/#" className="theme__btn">continue</a>
                                     </div>{/* end price-listitem */}
                                 </div>{/* end price-content */}
                             </div>{/* end price-item */}

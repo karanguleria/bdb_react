@@ -221,55 +221,55 @@ export class AddListing extends Component {
                                 <div className="add-list-content">
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb1" />
-                                        <label for="chb1">Security Cameras</label>
+                                        <label htmlFor="chb1">Security Cameras</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb2" />
-                                        <label for="chb2">Elevator in Building</label>
+                                        <label  htmlFor="chb2">Elevator in Building</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb3" />
-                                        <label for="chb3">Wireless Internet</label>
+                                        <label  htmlFor="chb3">Wireless Internet</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb4" />
-                                        <label for="chb4">Wheelchair Accessible</label>
+                                        <label htmlFor="chb4">Wheelchair Accessible</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb5" />
-                                        <label for="chb5">Laundry Room in Building</label>
+                                        <label htmlFor="chb5">Laundry Room in Building</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb6" />
-                                        <label for="chb6">Alarm System</label>
+                                        <label htmlFor="chb6">Alarm System</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb7" />
-                                        <label for="chb7">Smoking Allowed</label>
+                                        <label htmlFor="chb7">Smoking Allowed</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb8" />
-                                        <label for="chb8">Free Parking on Street</label>
+                                        <label htmlFor="chb8">Free Parking on Street</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb9" />
-                                        <label for="chb9">Friendly Workspace</label>
+                                        <label htmlFor="chb9">Friendly Workspace</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb10" />
-                                        <label for="chb10">Electricity</label>
+                                        <label htmlFor="chb10">Electricity</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb11" />
-                                        <label for="chb11">Attached Garage</label>
+                                        <label htmlFor="chb11">Attached Garage</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb12" />
-                                        <label for="chb12">Bike Parking</label>
+                                        <label htmlFor="chb12">Bike Parking</label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb15" />
-                                        <label for="chb15">Telephone</label>
+                                        <label htmlFor="chb15">Telephone</label>
                                     </div>{/* end custom-checkbox */}
                                 </div>{/* end add-list-content */}
                             </div>{/* end add-list-form-item */}
@@ -792,14 +792,14 @@ export class AddListing extends Component {
                                 <div className="add-list-content">
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb13" />
-                                        <label for="chb13">I Agree to Dirto's <a href="#">Privacy Policy</a></label>
+                                        <label htmlFor="chb13">I Agree to Dirto's <a href="/#">Privacy Policy</a></label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="custom-checkbox">
                                         <input type="checkbox" id="chb14" />
-                                        <label for="chb14">I Agree to Dirto's <a href="#">Terms of Services</a></label>
+                                        <label htmlFor="chb14">I Agree to Dirto's <a href="/#">Terms of Services</a></label>
                                     </div>{/* end custom-checkbox */}
                                     <div className="add-sub-btn">
-                                        <a href="#" className="theme__btn submit__btn">submit listing</a>
+                                        <a href="/#" className="theme__btn submit__btn">submit listing</a>
                                     </div>{/* end add-sub-btn */}
                                 </div>{/* end add-list-content */}
                             </div>{/* end add-list-form-item */}

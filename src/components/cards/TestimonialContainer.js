@@ -27,7 +27,7 @@ function TestimonialsContainer({ testimonialsData, fetchTestimonials }) {
                         {testimonialsData &&
                             testimonialsData.testimonials &&
                             testimonialsData.testimonials.map(testimonials =>
-                                <div className="Testimonial testimonial-item">
+                                <div key={testimonials.id} className="Testimonial testimonial-item">
                                     <div className="testi-comment">
                                         <p className="testi__desc">
                                             {testimonials.description}
