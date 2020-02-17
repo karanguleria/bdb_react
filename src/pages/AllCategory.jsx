@@ -11,12 +11,12 @@ function Category() {
             <Breadcrum title="All Category" />
             <section className="cat-area cat-area2 all-cat-area">
                 <div className="container">
-
+                    <h1>Category</h1>
                     <CategoryContainer />
-                    <CategoryContainer categoryType={'popular'} count={8} />
-                    <CategoryContainer categoryType={'featured'} count={8} />
-
-
+                    <h1>Popular Category</h1>
+                    <CategoryContainer categoryType={'popular'} count={1} />
+                    <h1>Featured Category</h1>
+                    <CategoryContainer categoryType={'featured'} count={2} layoutType={'small'} />
                 </div>{/* end container */}
             </section>
             <Footer />

@@ -1,50 +1,36 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import Header from '../components/Header.jsx';
 import Breadcrum from '../components/Breadcrum';
 import Footer from '../components/Footer.jsx';
 import axios from 'axios';
 import { Redirect } from "react-router-dom";
+import { fetchUser } from '../redux'
 
 export class Login extends Component {
-    constructor() {
-        super();
+
+    constructor(props) {
+        super(props);
         this.state = {
             username: '',
             password: '',
-            remember_me: false,
+            remember_me: true,
             error: '',
             login: false
         };
-        this.handelUserChange = this.handelUserChange.bind(this);
-        this.handelPasswordChange = this.handelPasswordChange.bind(this);
-        this.handelRemembermeChange = this.handelRemembermeChange.bind(this);
         this.handelSubmit = this.handelSubmit.bind(this);
         this.dismissError = this.dismissError.bind(this);
     }
+
     dismissError() {
         this.setState({
             error: ''
         });
     }
-    handelUserChange(evt) {
-        this.setState({
-            username: evt.target.value,
-        })
-    }
-    handelPasswordChange(evt) {
-        this.setState({
-            password: evt.target.value,
-        })
-    }
-    handelRemembermeChange(evt) {
-        console.log(evt.target.value);
-        this.setState({
-            remember_me: evt.target.value,
-        })
-    }
-    handelSubmit(evt) {
-        console.log("submit");
 
+    // }
+    handelSubmit(evt) {
+
+        console.log("submit");
         evt.preventDefault();
         if (!this.state.username) {
             return this.setState({
@@ -59,31 +45,32 @@ export class Login extends Component {
         this.setState({
             error: ''
         })
-        axios.post('http://awardselfie.com/bdb/public/api/auth/login', {
-            email: this.state.username,
-            password: this.state.password,
-            remember_me: false
-        })
-            .then(function (response) {
-                localStorage.setItem("token", response.data.access_token)
-                console.log(response.data.access_token);
-                // this.setState({
-                //     login: true
-                // })
+        const globalStateThis = this
+        console.log("ASd");
+        // useEffect(() => {
+        fetchUser("ASd",",","Asd")
+        // }, [])
+        // axios.post('http://awardselfie.com/bdb/public/api/auth/login', {
+        //     email: this.state.username,
+        //     password: this.state.password,
+        //     remember_me: this.state.remember_me
+        // })
+        //     .then(function (response) {
+        //         globalStateThis.setState({ login: true });
+        //         localStorage.setItem("token", response.data.access_token)
+        //         console.log(response.data.access_token);
 
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+        //     })
+        //     .catch(function (error) {
+        //         console.log(error);
+        //     });
     }
     render() {
-        // if (this.state.login) {
-        //     return (
-        //         <Redirect
-        //             to="/"
-        //         />
-        //     )
-        // }
+        if (this.state.login) {
+            return (
+                <Redirect to="/dashboard" />
+            )
+        }
         return (
 
             <div className="Login">
@@ -129,14 +116,14 @@ export class Login extends Component {
                                             }
                                             <meta name="csrf-token" content="{{csrf_token()}}" />
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" value={this.state.username} onChange={this.handelUserChange} type="text" name="name" placeholder="Username, or email" />
+                                                <input className="form-control" value={this.state.username} onChange={(e) => this.setState({ username: e.target.value })} type="text" name="name" placeholder="Username, or email" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 form-group">
-                                                <input className="form-control" value={this.state.password} onChange={this.handelPasswordChange} type="text" name="password" placeholder="Password" />
+                                                <input className="form-control" value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })} type="text" name="password" placeholder="Password" />
                                             </div>{/* end col-md-12 */}
                                             <div className="col-md-12 col-sm-12 col-xs-12 form-condition">
                                                 <div className="custom-checkbox">
-                                                    <input type="checkbox" id="chb1" value={this.state.remember_me} onChange={this.handelRemembermeChange} />
+                                                    <input type="checkbox" id="chb1" value={this.state.remember_me} onChange={(e) => this.setState({ remember_me: e.target.checked })} />
                                                     <label htmlFor="chb1" >Remember Me</label>
                                                     <a href="/#" className="pass__desc"> Forgot my password?</a>
                                                 </div>

@@ -6,9 +6,10 @@ import React, { Component } from 'react'
 // import ItemContainer from '../components/testing/ItemContainer'
 // import UserContainer from '../components/testing/UserContainer'
 import CategoryContainer from '../components/cards/CategoryContainer';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import FeaturedCategory from '../components/cards/FeaturedCategory';
+// import FeaturedCategory from '../components/cards/FeaturedCategory';
 // import PopularCategory from '../components/cards/PopularCategory';
 import MostVisitedPlace from '../components/cards/MostVisitedPlace';
 // import Testimonial from '../components/cards/Testimonial';
@@ -159,14 +160,7 @@ export class Home extends Component {
                                 <div className="highlighted-categories">
                                     <h4 className="highlighted__or">Or</h4>
                                     <h5 className="highlighted__title">browse featured categories:</h5>
-                                    <ul className="highlighted-list-item">
-                                        <FeaturedCategory icon="la la-building-o" title="apartments" />
-                                        <FeaturedCategory icon="la la-building-o" title="bpartments" />
-                                        <FeaturedCategory icon="la la-building-o" title="cpartments" />
-                                        <FeaturedCategory icon="la la-building-o" title="dpartments" />
-                                        <FeaturedCategory icon="la la-building-o" title="epartments" />
-                                        <FeaturedCategory icon="la la-building-o" title="fpartments" />
-                                    </ul>
+                                    <CategoryContainer categoryType={'featured'} count={6} layoutType={'small'} />
                                 </div>
                             </div>
                         </div>
@@ -187,7 +181,7 @@ export class Home extends Component {
                             </div>
                         </div>
                         <div className="row cat-info-wrap">
-                            <CategoryContainer />
+                            <CategoryContainer categoryType={'popular'} count={8} />
                         </div>
                     </div>
                 </section>

@@ -8,7 +8,7 @@ import {
 import axios from 'axios'
 
 export const fetchCategories = (CategoryType, count) => {
-    console.log(CategoryType);
+    // console.log(CategoryType);
     return (dispatch) => {
         //getting categories
         dispatch(fetchCategoriesRequest())

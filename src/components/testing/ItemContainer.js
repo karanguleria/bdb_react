@@ -13,14 +13,14 @@ function ItemContainer(props) {
 
 
 const mapStateToProps = (state, ownprops) => {
-    console.log(ownprops);
+    // console.log(ownprops);
     const numberOfItem = ownprops.cake ? state.cake.numberOfCakes : state.icecream.numberOfIcecream
     return {
         item: numberOfItem
     }
 }
 const mapDispatchToProps = (dispatch, ownprops) => {
-    console.log(ownprops);
+    // console.log(ownprops);
     const dispatchFunction = ownprops.cake
         ? () => dispatch(buyCake())
         : () => dispatch(buyIcecream())

@@ -5,12 +5,14 @@ import { combineReducers } from 'redux'
 // import userReducer from './user/userReducer'
 import testimonialReducer from './testimonial/testimonialReducer'
 import categoryReducer from './category/categoryReducer'
+import loginReducer from './login/loginReducer'
 
 const rootReducer = combineReducers({
     // icecream: icecreamReducer,
     // cake: cakeReducer,
     // fruit: fruitReducer,
     // user: userReducer,
+    user:loginReducer,
     testimonial: testimonialReducer,
     category: categoryReducer
 })
