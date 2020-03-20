@@ -70,7 +70,7 @@ function Header() {
                       <li>
                         <Link to="/login">login</Link>
                         <span className="or-text">or</span>
-                        <Link to="/sign-up">sign up</Link>
+                        <Link to="/sign-up">Sign up</Link>
                       </li>
                       <li>
                         <Link to="/add-listing" className="theme__btn">
